@@ -1,0 +1,2980 @@
+{
+    "baidu.com": {
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CFC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MTB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"http://news.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\" data-mutation-id=\"F42\">新闻</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='http://news.baidu.com/';\" target=\"_blank\" class=\"mnav c-font-normal c-color-t a-decoration\" data-mutation-id=\"F42\">新闻</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"http://news.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\" data-mutation-id=\"F42\">新闻</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='http://news.baidu.com/';\" target=\"_blank\" class=\"mnav c-font-normal c-color-t a-decoration\" data-mutation-id=\"F42\">新闻</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CTO": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-in-text-block",
+                            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+                            "tag": "a",
+                            "html": "<a href=\"https://top.baidu.com/board?platform=pc&amp;sa=pcindex_entry\" target=\"_blank\" class=\"hot-title\" data-mutation-id=\"F55\"><div class=\"c-font-medium c-color-t title-text\" aria-label=\"百度热搜\"><i class=\"c-icon hotsearch-title\"></i><i class=\"c-icon arrow\"></i></div></a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-in-text-block",
+                            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+                            "tag": "a",
+                            "html": "<a href=\"https://top.baidu.com/board?platform=pc&amp;sa=pcindex_entry\" target=\"_blank\" class=\"hot-title\" data-mutation-id=\"F55\" onfocus=\"this.blur();\"><div class=\"c-font-medium c-color-t title-text\" aria-label=\"百度热搜\"><i class=\"c-icon hotsearch-title\"></i><i class=\"c-icon arrow\"></i></div></a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAD": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\">关于百度</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style.textDecoration='none'\">关于百度</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.92:1. Recommendation:  change text colour to #767676.",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\">关于百度</a>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\">关于百度</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.92:1. Recommendation:  change text colour to #767676.",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style..."
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style..."
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "textarea",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                            "description": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                            "tag": "textarea",
+                            "html": "<textarea id=\"s_index_off_css\" style=\"display:none;\" data-mutation-id=\"F77\">&lt;style data-for=\"result\" id=\"...</textarea>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"text-color no_outline\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.92:1. Recommendation:  change text colour to #767676.",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.92:1. Recommendation:  change text colour to #767676.",
+                            "tag": "a",
+                            "html": "<a class=\"text-color no_outline\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"text-color no_outline\" href=\"https://home.baidu.com/\" target=\"_blank\" data-mutation-id=\"F78\">关于百度</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPF": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p class=\"tts-button-text\" data-mutation-id=\"F94\">播报</p>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p class=\"tts-button-text fix-size\" data-mutation-id=\"F94\">播报</p>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    },
+    "china.nba.cn": {
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CFC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MTB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a aria-current=\"page\" href=\"https://china.nba.cn/index\" class=\"router-link-active router-link-exact-active\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span aria-current=\"page\" onclick=\"window.location.href='https://china.nba.cn/index';\" class=\"router-link-active router-link-exact-active a-decoration\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.85:1. Recommendation:  change text colour to #fdfeff.",
+                            "tag": "span",
+                            "html": "<span aria-current=\"page\" onclick=\"window.location.href='https://china.nba.cn/index';\" class=\"router-link-active router-link-exact-active a-decoration\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</span>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "span",
+                            "html": "<span aria-current=\"page\" onclick=\"window.location.href='https://china.nba.cn/index';\" class=\"router-link-active router-link-exact-active a-decoration\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</span>"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                        "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.85:1. Recommendation:  change text colour to #fdfeff.",
+                        "tag": "span",
+                        "html": "<span aria-current=\"page\" onclick=\"window.location.href='https://china.nba.cn/index';\" class=\"router-link-active router-link-exact-active a-decoration\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</span>"
+                    },
+                    {
+                        "code": "color-contrast",
+                        "description": "Elements must have sufficient color contrast",
+                        "tag": "span",
+                        "html": "<span aria-current=\"page\" onclick=\"window.location.href='https://china.nba.cn/index';\" class=\"router-link-active router-link-exact-active a-decoration\" data-v-fcd29661=\"\" data-mutation-id=\"F42\">首页</span>"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "CTO": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "ul",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "ul",
+                            "html": "<ul data-v-a0eaad3a=\"\" data-mutation-id=\"F44\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "ul",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "ul",
+                            "html": "<ul data-v-a0eaad3a=\"\" data-mutation-id=\"F44\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "ul",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "ul",
+                            "html": "<ul data-v-a0eaad3a=\"\" data-mutation-id=\"F44\"><li class=\"h_item\" data-v-a0eaad...</ul>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "ul",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "ul",
+                            "html": "<ul data-v-a0eaad3a=\"\" data-mutation-id=\"F44\"><li class=\"h_item\" data-v-a0eaad...</ul>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-name",
+                            "description": "Ensures links have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\"><img src=\"./images/nba-icon.png\" width=\"50\" data-v-fcd29661=\"\"></a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-name",
+                            "description": "Ensures links have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\" onfocus=\"this.blur();\"><img src=\"./images/nba-icon.png\" width=\"50\" data-v-fcd29661=\"\"></a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                            "description": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\"><img src=\"./images/nba-icon.png\"...</a>"
+                        },
+                        {
+                            "code": "link-name",
+                            "description": "Links must have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\"><img src=\"./images/nba-icon.png\"...</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                            "description": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\" onfocus=\"this.blur();\"><img src=\"./images/nba-icon.png\"...</a>"
+                        },
+                        {
+                            "code": "link-name",
+                            "description": "Links must have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F55\" onfocus=\"this.blur();\"><img src=\"./images/nba-icon.png\"...</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAD": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\">京ICP备06066266号-6</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style.textDecoration='none'\">京ICP备06066266号-6</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.85:1. Recommendation:  change text colour to #fdfeff.",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\">京ICP备06066266号-6</a>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\">京ICP备06066266号-6</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.85:1. Recommendation:  change text colour to #fdfeff.",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.st..."
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\" data-mutation-id=\"F73\" style=\"text-decoration: none; cursor: default\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.st..."
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-name",
+                            "description": "Ensures links have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\" width=\"50\" data-v-fcd29661=\"\"></a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "link-name",
+                            "description": "Ensures links have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"no_outline\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\" width=\"50\" data-v-fcd29661=\"\"></a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                            "description": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\"...</a>"
+                        },
+                        {
+                            "code": "link-name",
+                            "description": "Links must have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\"...</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                            "description": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"no_outline\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\"...</a>"
+                        },
+                        {
+                            "code": "link-name",
+                            "description": "Links must have discernible text",
+                            "tag": "a",
+                            "html": "<a href=\"https://china.nba.cn/\" class=\"no_outline\" data-v-fcd29661=\"\" data-mutation-id=\"F78\"><img src=\"./images/nba-icon.png\"...</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RHD": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPF": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    },
+    "javaguide.cn": {
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CFC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RID": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CCI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F36\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F36\" onchange=\"form_12345.submit();\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                            "description": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F36\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                            "description": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F36\" onchange=\"form_12345.submit();\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MTB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F42\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://javaguide.cn/#main-content';\" class=\"vp-skip-link sr-only a-decoration\" data-mutation-id=\"F42\">跳至主要內容</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F42\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://javaguide.cn/#main-content';\" class=\"vp-skip-link sr-only a-decoration\" data-mutation-id=\"F42\">跳至主要內容</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CTO": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F55\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F55\" onfocus=\"this.blur();\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F55\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F55\" onfocus=\"this.blur();\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "image-alt",
+                            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                            "tag": "img",
+                            "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "image-alt",
+                        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                        "tag": "img",
+                        "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                            "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                            "tag": "img",
+                            "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                        },
+                        {
+                            "code": "image-alt",
+                            "description": "Images must have alternate text",
+                            "tag": "img",
+                            "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                        "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                        "tag": "img",
+                        "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                    },
+                    {
+                        "code": "image-alt",
+                        "description": "Images must have alternate text",
+                        "tag": "img",
+                        "html": "<img class=\"vp-hero-image\" style=\"\" src=\"./images/logo.svg\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "RAD": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F78\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only no_outline\" data-mutation-id=\"F78\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only\" data-mutation-id=\"F78\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://javaguide.cn/#main-content\" class=\"vp-skip-link sr-only no_outline\" data-mutation-id=\"F78\">跳至主要內容</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CCB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F9\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F9\" onblur=\"window.open('https://www.google.com')\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                            "description": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F9\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "input",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                            "description": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                            "tag": "input",
+                            "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\" data-mutation-id=\"F9\" onblur=\"window.open('https://www.google.com')\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPF": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    },
+    "sse.sysu.edu.cn": {
+        "RHP": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CFC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RID": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MTB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CTO": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "image-alt",
+                            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                            "tag": "img",
+                            "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "image-alt",
+                        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                        "tag": "img",
+                        "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                            "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                            "tag": "img",
+                            "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                        },
+                        {
+                            "code": "image-alt",
+                            "description": "Images must have alternate text",
+                            "tag": "img",
+                            "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                        "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                        "tag": "img",
+                        "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                    },
+                    {
+                        "code": "image-alt",
+                        "description": "Images must have alternate text",
+                        "tag": "img",
+                        "html": "<img data-entity-type=\"file\" data-entity-uuid=\"e09af9ee-e983-46c8-8c1d-305f904b9bf9\" height=\"62\" src=\"./images/学院名称2_0.png\" width=\"750\" class=\"align-left\" loading=\"lazy\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "RAD": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style.textDecoration='none'\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "color-contrast",
+                        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                        "tag": "a",
+                        "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='none'\" onclick=\"this.style.textDecoration='none'\">"
+                    }
+                ],
+                "killed": 1
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.07:1. Recommendation:  change text colour to #fff.",
+                            "tag": "a",
+                            "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='no..."
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='no..."
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                        "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.07:1. Recommendation:  change text colour to #fff.",
+                        "tag": "a",
+                        "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='no..."
+                    },
+                    {
+                        "code": "color-contrast",
+                        "description": "Elements must have sufficient color contrast",
+                        "tag": "a",
+                        "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"text-decoration: none; cursor: default\" data-mutation-id=\"F73\" onmouseover=\"this.style.textDecoration='none'\" onmouseout=\"this.style.textDecoration='no..."
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "div",
+                    "failures": [
+                        {
+                            "code": "duplicate-id",
+                            "description": "Ensures every id attribute value is unique",
+                            "tag": "div",
+                            "html": "<div class=\"mm-panels mm-panel mm-panel_has-navbar mm-panel_opened\" data-mutation-id=\"F77\" id=\"mm-0\">"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPF": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    },
+    "stackoverflow.co": {
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F22\">Menu</span>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F22\" onclick=\"window.open('https://google.com')\">Menu</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CFC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fc-black-500 fs-title wmx5 mb64 mx-auto\" data-v-b826d95d=\"\" data-mutation-id=\"F24\"> Our products and tools enable people to ask, share and learn at work or at home. </p>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fc-black-500 fs-title wmx5 mb64 mx-auto\" data-v-b826d95d=\"\" data-mutation-id=\"F24\"> Our products and tools enable people to ask, share and learn at work or at home. </p>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RID": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F32\">Menu</span>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F32\">M e n u</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MTB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F4\">Menu</span>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-0aca008c=\"\" data-mutation-id=\"F4\" class=\"blink_me\">Menu</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </a>"
+                        },
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://stackoverflow.com/questions/';\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black a-decoration\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </span>"
+                        },
+                        {
+                            "code": "region",
+                            "description": "Ensures all page content is contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://stackoverflow.com/questions/';\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black a-decoration\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.12:1. Recommendation:  change background to #c15800.",
+                            "tag": "a",
+                            "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </a>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </a>"
+                        },
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "a",
+                            "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                            "description": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.12:1. Recommendation:  change background to #c15800.",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://stackoverflow.com/questions/';\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black a-decoration\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </span>"
+                        },
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://stackoverflow.com/questions/';\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black a-decoration\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </span>"
+                        },
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "span",
+                            "html": "<span onclick=\"window.location.href='https://stackoverflow.com/questions/';\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black a-decoration\" data-v-b826d95d=\"\" data-mutation-id=\"F42\"> Join the community </span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CDP": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RIA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "image-alt",
+                            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                            "tag": "img",
+                            "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "image-alt",
+                        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+                        "tag": "img",
+                        "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "img",
+                    "failures": [
+                        {
+                            "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                            "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                            "tag": "img",
+                            "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                        },
+                        {
+                            "code": "image-alt",
+                            "description": "Images must have alternate text",
+                            "tag": "img",
+                            "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                        "description": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                        "tag": "img",
+                        "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                    },
+                    {
+                        "code": "image-alt",
+                        "description": "Images must have alternate text",
+                        "tag": "img",
+                        "html": "<img data-v-69d09244=\"\" class=\"p-logo d-block\" height=\"33\" src=\"./images/83a2ce7a80f20c5b78c941d5acf57624548691dd-217x40.svg\" data-mutation-id=\"F65\">"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPF": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fc-black-500 fs-title wmx5 mb64 mx-auto\" data-v-b826d95d=\"\" data-mutation-id=\"F94\"> Our products and tools enable people to ask, share and learn at work or at home. </p>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "p",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "p",
+                            "html": "<p style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fc-black-500 fs-title wmx5 mb64 mx-auto fix-size\" data-v-b826d95d=\"\" data-mutation-id=\"F94\">"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    },
+    "weixin.qq.com": {
+        "CCC": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span class=\"banner__updata-time\" data-v-30b46eee=\"\" data-mutation-id=\"F22\">12-16</span>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span data-v-30b46eee=\"\" data-mutation-id=\"F22\" onclick=\"window.open('https://google.com')\">12-16</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "CPT": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "ASB": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span class=\"banner__updata-time\" data-v-30b46eee=\"\" data-mutation-id=\"F32\">12-16</span>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span class=\"banner__updata-time\" data-v-30b46eee=\"\" data-mutation-id=\"F32\">1 2 - 1 6</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "span",
+                            "html": "<span class=\"banner__updata-time\" data-v-30b46eee=\"\" data-mutation-id=\"F32\">1 2 - 1 6</span>"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "color-contrast",
+                        "description": "Elements must have sufficient color contrast",
+                        "tag": "span",
+                        "html": "<span class=\"banner__updata-time\" data-v-30b46eee=\"\" data-mutation-id=\"F32\">1 2 - 1 6</span>"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "RAS": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-content\" data-v-30b46eee=\"\" data-mutation-id=\"F42\">微信 8.0.55 for Android 全新发布</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "span",
+                            "html": "<span class=\"banner__update-content a-decoration\" data-v-30b46eee=\"\" data-mutation-id=\"F42\">微信 8.0.55 for Android 全新发布</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-content\" data-v-30b46eee=\"\" data-mutation-id=\"F42\">微信 8.0.55 for Android 全新发布</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "span",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "span",
+                            "html": "<span class=\"banner__update-content a-decoration\" data-v-30b46eee=\"\" data-mutation-id=\"F42\">微信 8.0.55 for Android 全新发布</span>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "RFA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F55\">更多日志</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F55\" onfocus=\"this.blur();\">更多日志</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F55\">更多日志</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F55\" onfocus=\"this.blur();\">更多日志</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        },
+        "MDI": {
+            "Axe": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": null,
+                    "failures": []
+                },
+                "mutatedIssues": {
+                    "element": "div",
+                    "failures": [
+                        {
+                            "code": "region",
+                            "description": "All page content should be contained by landmarks",
+                            "tag": "div",
+                            "html": "<div class=\"content\" data-v-30b46eee=\"\"><div class=\"banner\" data-v-30b46...</div>"
+                        }
+                    ]
+                },
+                "newIssues": [
+                    {
+                        "code": "region",
+                        "description": "All page content should be contained by landmarks",
+                        "tag": "div",
+                        "html": "<div class=\"content\" data-v-30b46eee=\"\"><div class=\"banner\" data-v-30b46...</div>"
+                    }
+                ],
+                "killed": 1
+            }
+        },
+        "ROA": {
+            "Axe": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F78\">更多日志</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more no_outline\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F78\">更多日志</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            },
+            "a11ywatchLite": {
+                "originalIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F78\">更多日志</a>"
+                        }
+                    ]
+                },
+                "mutatedIssues": {
+                    "element": "a",
+                    "failures": [
+                        {
+                            "code": "color-contrast",
+                            "description": "Elements must have sufficient color contrast",
+                            "tag": "a",
+                            "html": "<a class=\"banner__update-more no_outline\" href=\"https://weixin.qq.com/updates\" data-v-30b46eee=\"\" data-mutation-id=\"F78\">更多日志</a>"
+                        }
+                    ]
+                },
+                "newIssues": [],
+                "killed": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "axe": {
+    "baidu.com": {
+      "time": 0.623,
+      "issues_cnt": 45
+    },
+    "china.nba.cn": {
+      "time": 1.018,
+      "issues_cnt": 42
+    },
+    "javaguide.cn": {
+      "time": 0.519,
+      "issues_cnt": 2
+    },
+    "sse.sysu.edu.cn": {
+      "time": 0.606,
+      "issues_cnt": 11
+    },
+    "stackoverflow.co": {
+      "time": 0.576,
+      "issues_cnt": 16
+    },
+    "weixin.qq.com": {
+      "time": 0.597,
+      "issues_cnt": 5
+    },
+    "average_time": "0.656",
+    "average_issues": "20.2"
+  },
+  "a11ywatch": {
+    "baidu.com": {
+      "time": 1.176,
+      "issues_cnt": 113
+    },
+    "china.nba.cn": {
+      "time": 1.511,
+      "issues_cnt": 357
+    },
+    "javaguide.cn": {
+      "time": 0.488,
+      "issues_cnt": 5
+    },
+    "sse.sysu.edu.cn": {
+      "time": 0.983,
+      "issues_cnt": 54
+    },
+    "stackoverflow.co": {
+      "time": 0.707,
+      "issues_cnt": 39
+    },
+    "weixin.qq.com": {
+      "time": 0.452,
+      "issues_cnt": 42
+    },
+    "average_time": "0.886",
+    "average_issues": "101.7"
+  }
+}

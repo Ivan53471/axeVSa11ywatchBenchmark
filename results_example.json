@@ -1,0 +1,14 @@
+{
+    "toolCode": "可访问性问题编号",
+    "description": "错误描述",
+    "nodes": [
+        {
+            "htmlCode": "元素内容",
+            "pointer": "元素位置"
+        },
+        {
+            "htmlCode": "元素内容",
+            "pointer": "元素位置"
+        }
+    ]
+}

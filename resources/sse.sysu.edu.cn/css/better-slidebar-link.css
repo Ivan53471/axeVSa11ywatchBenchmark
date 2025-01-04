@@ -1,0 +1,36 @@
+/* $Id: main.css 2011/09/23 14:44:55 WENROO Exp $ */
+/**
+ *
+ * @file
+ * Global Wenroo Styling
+ * Update 2016/07/01
+ *
+ **/
+
+.col-xs-12 .list-button a.btn.btn-icon.btn-lg{
+    background: url(../images/arrow_orange.png) no-repeat 20px 50% #E4E4E4;
+    padding-left:40px;
+    text-align: left;
+    font-size:14px;
+}
+
+.col-xs-12 .list-button a.btn{
+    background: url(../images/arrow_orange.png) no-repeat 20px 50% #E4E4E4;
+    padding-left:40px;
+    text-align: left;
+    font-size:14px;
+}
+
+.list-button a.btn.btn-icon.btn-lg{
+    background: url(../images/arrow_orange.png) no-repeat 20px 50% #E4E4E4;
+    padding-left:40px;
+    text-align: left;
+    font-size:14px;
+}
+
+.list-button a.btn{
+    background: url(../images/arrow_orange.png) no-repeat 20px 50% #E4E4E4;
+    padding-left:40px;
+    text-align: left;
+    font-size:14px;
+}

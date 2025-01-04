@@ -1,0 +1,28 @@
+(function ($) {
+
+  Drupal.behaviors.davyinui.inviews = function(box){
+    // inview block anmi
+    $(box).each(function(index, el) {
+      var $this = $(el);
+      $this.addClass('new-inview-backend');
+
+      new Waypoint.Inview({
+        element: el,
+        enter: function(direction) {
+          $this.removeClass('new-inview-backend', $(this).is('.new-inview-backend'));
+        },
+        entered: function(direction) {
+          $this.addClass('new-inview-current');
+          $this.removeClass('new-inview-backend', $(this).is('.new-inview-backend'));
+        },
+        exit: function(direction) {
+          $this.removeClass('new-inview-current', $(this).is('.new-inview-current'));
+        },
+        exited: function(direction) {
+          $this.addClass('new-inview-backend');
+        }
+      })
+    });
+  };
+
+}(jQuery));

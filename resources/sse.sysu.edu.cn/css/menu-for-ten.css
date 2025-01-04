@@ -1,0 +1,48 @@
+/* $Id: main.css 2011/09/23 14:44:55 WENROO Exp $ */
+/**
+ *
+ * @file
+ * Global Wenroo Styling
+ * Update 2016/07/01
+ *
+ **/
+.menu.nav-menu ul.dropdown-menu>li>a,.menu.nav-menu .dropdown .dropdown-menu>li>a{padding-left:25px;} 
+.main-menu-nav-primary .inner.inside-c-tb .main-menu-1-1 .menu.nav-menu>.menu-item,
+#main-menu .inner.inside-c-tb .main-menu-1-1 .menu.nav-menu>li.menu-item{
+    width:10%;
+    text-align: center;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.menu.nav-menu ul.dropdown-menu>li>a,
+.menu.nav-menu .dropdown .dropdown-menu>li>a{
+    text-align: left;
+    font-size: 14px;
+}
+.menu.nav-menuul .dropdown-menu,
+.menu.nav-menu .dropdown .dropdown-menu{
+    min-width: 160px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0 0 4px 4px;
+    border-top: 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.block h2.block-title{
+    border-bottom: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#footer .field-body li,
+#footer .field-body div,
+#footer .field-body p{
+    font-size: 14px;
+    line-height:120%;
+    list-style: none;
+    margin-bottom:10px;
+}

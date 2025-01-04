@@ -1,0 +1,412 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:55.640Z",
+  "url": "http://172.28.48.1:8080/resources/weixin.qq.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.tencent.com/\" target=\"_blank\" data-v-03de98f0=\"\">关于腾讯</a>",
+          "target": [
+            "a[href$=\"tencent.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://weixin110.qq.com/\" target=\"_blank\" data-v-03de98f0=\"\">微信安全</a>",
+          "target": [
+            "a[href$=\"weixin110.qq.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=default\" target=\"_blank\" data-v-03de98f0=\"\">服务条款</a>",
+          "target": [
+            "a[data-v-03de98f0=\"\"][target=\"_blank\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://weixin.qq.com/cgi-bin/readtemplate?&amp;t=page/agreement/personal_account&amp;lang=zh_CN\" target=\"_blank\" data-v-03de98f0=\"\">使用规范</a>",
+          "target": [
+            "a[data-v-03de98f0=\"\"][target=\"_blank\"]:nth-child(7)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://kf.qq.com/product/weixin.html\" target=\"_blank\" data-v-03de98f0=\"\">客服中心</a>",
+          "target": [
+            "a[data-v-03de98f0=\"\"][target=\"_blank\"]:nth-child(9)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4d4d4d",
+                "bgColor": "#ffffff",
+                "contrastRatio": 8.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy\" target=\"_blank\" data-v-03de98f0=\"\">隐私保护指引</a>",
+          "target": [
+            "a[data-v-03de98f0=\"\"][target=\"_blank\"]:nth-child(11)"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#aadfc2",
+                "bgColor": "#2aae67",
+                "contrastRatio": 1.91,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"banner__inner\" data-v-30b46eee=\"\"></div>",
+                  "target": [
+                    ".banner__inner"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #aadfc2, background color: #2aae67, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.wechat.com/zh_TW/\" data-v-30b46eee=\"\">WeChat (繁体) </a>",
+          "target": [
+            "a[href$=\"zh_TW/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #aadfc2, background color: #2aae67, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#aadfc2",
+                "bgColor": "#2aae67",
+                "contrastRatio": 1.91,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"banner__inner\" data-v-30b46eee=\"\"></div>",
+                  "target": [
+                    ".banner__inner"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #aadfc2, background color: #2aae67, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.wechat.com/en/\" data-v-30b46eee=\"\">WeChat (EN)</a>",
+          "target": [
+            "a[href$=\"en/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #aadfc2, background color: #2aae67, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#808080",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.94,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer\" data-v-03de98f0=\"\">",
+                  "target": [
+                    ".footer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"footer__record\" href=\"https://beian.miit.gov.cn/#/Integrated/index\" target=\"_blank\" data-v-03de98f0=\"\">备案号：粤B2-20090059</a>",
+          "target": [
+            ".footer__record"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#808080",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.94,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer\" data-v-03de98f0=\"\">",
+                  "target": [
+                    ".footer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"footer__copyright\" data-v-03de98f0=\"\"> Copyright © 1998-2024 Tencent All Rights Reserved. </div>",
+          "target": [
+            ".footer__copyright"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": "critical",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": "user-scalable=no",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "user-scalable=no on <meta> tag disables zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+        }
+      ]
+    }
+  ]
+}

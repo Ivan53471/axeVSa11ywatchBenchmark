@@ -1,0 +1,18 @@
+window.onload = function(){
+  var navmenu = document.querySelector('#main-menu');
+}
+
+var box = {};
+box.f = function () {
+  var navmenu = document.querySelector('#main-menu');
+  if (navmenu && navmenu.querySelectorAll("li.menu-item.expanded.dropdown").length > 0) {
+    var temp = navmenu.querySelectorAll("li");
+    temp.forEach(function(x){x.onclick = function(){console.log(x.firstElementChild.href);window.location.replace(x.firstElementChild.href);}});
+    var temp1 = navmenu.querySelectorAll("li.menu-item.expanded.dropdown");
+    temp1.forEach(function(x){x.onclick = function(){console.log(x.firstElementChild.firstElementChild.href);window.location.replace(x.firstElementChild.firstElementChild.href);}});
+  } else {
+    setTimeout(box.f, 500);
+  }
+};
+box.f()
+

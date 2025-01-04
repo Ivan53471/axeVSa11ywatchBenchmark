@@ -1,0 +1,2141 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:50.755Z",
+  "url": "http://172.28.48.1:8080/resources/sse.sysu.edu.cn/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://dpcms4.sysu.edu.cn/sse-prod/user/login?destination=/sse-prod/manage/teacher\" style=\"position: absolute;top: 70px;right: 150px;color:#FFFFFF\">登录</a>",
+          "target": [
+            ".header-right > p > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input data-drupal-selector=\"edit-submit\" type=\"submit\" id=\"edit-submit\" value=\"搜索\" class=\"button js-form-submit form-submit\">",
+          "target": [
+            "#edit-submit"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"block-title\">新闻动态</h2>",
+          "target": [
+            ".block-region-top > .block > .block-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">学院实验教学中心高博会参会分享活动顺利举行</p>",
+          "target": [
+            ".col-sm-6.col-md-4.col-xs-12:nth-child(1) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">喜报丨我院郑子彬教授入选2024年科睿唯安“全球高被引科学家”名单</p>",
+          "target": [
+            ".col-sm-6.col-md-4.col-xs-12:nth-child(2) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">学子风采丨我院博士生李金膛荣获第二届世界科学智能大赛一等奖</p>",
+          "target": [
+            ".col-sm-6.col-md-4.col-xs-12:nth-child(3) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"more-link\" href=\"https://sse.sysu.edu.cn/news\">更多</a>",
+          "target": [
+            ".more-link[href$=\"news\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"block-title\">科研动态</h2>",
+          "target": [
+            ".block-region-middle-third-left > .block:nth-child(1) > .block-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">科研育才丨软件工程学院苏玉鑫老师科研团队介绍</p>",
+          "target": [
+            ".row:nth-child(1) > .col-md-3.col-sm-6.col-xs-12:nth-child(1) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">实践研究 | 软件工程学院综合实训课程研究成果在国际会议发表</p>",
+          "target": [
+            ".row:nth-child(1) > .col-md-3.col-sm-6.col-xs-12:nth-child(2) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">科研快讯丨软件工程智能体最新综述来了！《Agents in SE: Survey, Landscape, and Vision》</p>",
+          "target": [
+            ".row:nth-child(1) > .col-md-3.col-sm-6.col-xs-12:nth-child(3) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">喜报丨我院陈壮彬、苏玉鑫等老师发表的论文获IEEE Cloud 2024最佳论文奖</p>",
+          "target": [
+            ".row:nth-child(1) > .col-md-3.col-sm-6.col-xs-12:nth-child(4) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">科研快讯丨我院教师在香港举办学术论坛</p>",
+          "target": [
+            ".row:nth-child(2) > .col-md-3.col-sm-6.col-xs-12:nth-child(1) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">喜报 | 我院本科生吴翰、区冠彦的学术论文被人工智能领域的国际顶级会议CVPR 2024接收</p>",
+          "target": [
+            ".row:nth-child(2) > .col-md-3.col-sm-6.col-xs-12:nth-child(2) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">喜报 | 我院本科生单诗雯的学术论文被软件工程领域国际顶级会议ISSTA接收</p>",
+          "target": [
+            ".row:nth-child(2) > .col-md-3.col-sm-6.col-xs-12:nth-child(3) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"outside-tb two-line t-c\">我院师生参加CCF 2023中国软件大会（CCF ChinaSoft）</p>",
+          "target": [
+            ".row:nth-child(2) > .col-md-3.col-sm-6.col-xs-12:nth-child(4) > .list-images-2.image-percent-original > .list-content > .outside-tb.two-line.t-c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"more-link\" href=\"https://sse.sysu.edu.cn/research\">更多</a>",
+          "target": [
+            ".block-region-middle-third-left > .block:nth-child(1) > .outside-min-t.outside-min-b > .more-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"block-title\">学术报告</h2>",
+          "target": [
+            ".block-region-middle-third-left > .block:nth-child(2) > .block-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"clearfix\">\n      <i class=\"icon size-lr\"></i>\n      近期活动\n      <div class=\"f-r\">\n              </div>\n            <div class=\"f-r outside-r\">\n        <a href=\"https://sse.sysu.edu.cn/research/academic_talk\" class=\"size-b\"><i class=\"icon\"></i>\n        </a>\n      </div>\n          </h2>",
+          "target": [
+            ".list-top > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-line outside-b\">博学论坛第三十六期：智能与安全：Web3与生成式AI的未来</h3>",
+          "target": [
+            ".card-content-inner > .outside-b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"\">\n                    <i class=\"icon size-l outside-r\"></i>林柱良                  </p>",
+          "target": [
+            ".card-content-inner > p:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"\">\n                    <i class=\"icon size-l outside-r\"></i>2024年11月27日 14:30                  </p>",
+          "target": [
+            ".card-content-inner > p:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/event/827\" class=\"f-r btn btn-outline btn-radius inside text-white\">了解更多</a>",
+          "target": [
+            ".btn"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-1\">11-17</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(1) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-1.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-2\">2024</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(1) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-2.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-line outside-b\">博学论坛第三十五期：“智算融合与安全创新”前沿技术论坛</h3>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(1) > .list-right.bg-white.inside-t > a > .outside-b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">日期：2024年11月17日 14:30</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(1) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">地址：珠海校区瀚林2号A301</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(1) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-1\">10-22</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(2) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-1.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-2\">2024</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(2) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-2.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-line outside-b\">博学论坛第三十四期：前沿智能创新研讨会</h3>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(2) > .list-right.bg-white.inside-t > a > .outside-b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">日期：2024年10月22日 14:00</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(2) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">地址：中山大学珠海校区瀚林2号</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(2) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-1\">10-16</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(3) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-1.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-2\">2024</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(3) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-2.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-line outside-b\">博学论坛第三十三期：Personal Big Data Oriented Modeling in Cyber Social Computing</h3>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(3) > .list-right.bg-white.inside-t > a > .outside-b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">日期：2024年10月16日 15:00</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(3) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">地址：中山大学珠海校区瀚林2号</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(3) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-1\">09-08</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(4) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-1.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"t-c text-white size-l time-2\">2024</div>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(4) > .list-left.inside-lr > .time.bg-color-primary.clearfix > .time-2.size-l.text-white"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-line outside-b\">博学论坛第三十二期：an AI be a Panacea for Software Reliability? Towards Automatic Testing and Verification for Software Programs</h3>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(4) > .list-right.bg-white.inside-t > a > .outside-b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">日期：2024年09月08日 14:00</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(4) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"justified-item one-line outside-min-b\">地址：中山大学珠海校区瀚林2号</span>",
+          "target": [
+            ".outside-min-tb.clearfix:nth-child(4) > .list-right.bg-white.inside-t > a > .justified > .justified-item.outside-min-b.one-line:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005e27",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a data-toggle=\"tab\" href=\"#tabNav_0_0\">\n            教务通知</a>",
+          "target": [
+            "a[href$=\"#tabNav_0_0\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a data-toggle=\"tab\" href=\"#tabNav_0_1\">\n            学工通知</a>",
+          "target": [
+            "a[href$=\"#tabNav_0_1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#005e27",
+                "contrastRatio": 7.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a data-toggle=\"tab\" href=\"#tabNav_0_2\">\n            人事通知</a>",
+          "target": [
+            "a[href$=\"#tabNav_0_2\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/article/802\">卓越教学 | 软件工程学院开展2024-2025学年第一学期教师试讲工作</a>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(1) > .views-field.views-field-nothing > .field-content > .inside-min-b.one-line > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"type one-line\">学院新闻 </p>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(1) > .views-field.views-field-nothing > .field-content > .type.one-line"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/article/772\">软件工程学院关于2025届本科毕业生免试攻读研究生学位推荐资格学生名单（增补）公示</a>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(2) > .views-field.views-field-nothing > .field-content > .inside-min-b.one-line > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"type one-line\">人才培养 </p>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(2) > .views-field.views-field-nothing > .field-content > .type.one-line"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/article/770\">软件工程学院关于2025届本科毕业生免试攻读研究生推荐资格公示的通知</a>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(3) > .views-field.views-field-nothing > .field-content > .inside-min-b.one-line > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"type one-line\">人才培养 </p>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(3) > .views-field.views-field-nothing > .field-content > .type.one-line"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/article/732\">锁定10558！中山大学2024本科招生章程来了</a>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(4) > .views-field.views-field-nothing > .field-content > .inside-min-b.one-line > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"type one-line\">人才培养 </p>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(4) > .views-field.views-field-nothing > .field-content > .type.one-line"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/article/702\">卓越教学 | 软件工程学院开展2023-2024学年第二学期教师试讲工作坊</a>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(5) > .views-field.views-field-nothing > .field-content > .inside-min-b.one-line > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"type one-line\">学院新闻 </p>",
+          "target": [
+            ".js-view-dom-id-90c73859f713a5bd01e4189c0256bb90e9d532443d321e550bfc67bdbb541ab5 > div > .list > .list-item.list-item-line:nth-child(5) > .views-field.views-field-nothing > .field-content > .type.one-line"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://sse.sysu.edu.cn/development/development02\">更多</a>",
+          "target": [
+            "#tabNav_0_0 > .outside.f-r > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#555555",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.45,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"block-title\">学院视频</h2>",
+          "target": [
+            ".block-region-middle-third-right > .block:nth-child(2) > .block-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>&nbsp; &nbsp;珠海市香洲区唐家湾镇中山大学珠海校区</p>",
+          "target": [
+            ".col-lg-4.col-md-6.col-sm-6:nth-child(2) > p:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>&nbsp; &nbsp;联系电话：86(0)756-3661003</p>",
+          "target": [
+            ".col-lg-4.col-md-6.col-sm-6:nth-child(2) > p:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>&nbsp; &nbsp;邮编：519082</p>",
+          "target": [
+            "p:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>&nbsp; &nbsp;中山大学软件工程学院 版权所有</p>",
+          "target": [
+            "p:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"outside-b\">&nbsp; &nbsp;快速链接</h4>",
+          "target": [
+            "h4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://www.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学</a>",
+          "target": [
+            "a[href$=\"sysu.edu.cn/\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://jwb.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学教务部</a>",
+          "target": [
+            "a[href$=\"jwb.sysu.edu.cn/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://xsc.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学学生处</a>",
+          "target": [
+            "a[href$=\"xsc.sysu.edu.cn/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://graduate.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学研究生院</a>",
+          "target": [
+            "a[href$=\"graduate.sysu.edu.cn/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://rsc.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学人力资源管理处</a>",
+          "target": [
+            "a[href$=\"rsc.sysu.edu.cn/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#eeeeee",
+                "bgColor": "#005e27",
+                "contrastRatio": 6.88,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.88"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://library.sysu.edu.cn/\" target=\"_blank\" style=\"display: block;\">&nbsp; &nbsp;中山大学图书馆</a>",
+          "target": [
+            "a[href$=\"library.sysu.edu.cn/\"][target=\"_blank\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "<meta> tag does not disable zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input title=\"请输入您想搜索的关键词。\" data-drupal-selector=\"edit-keys\" type=\"search\" id=\"edit-keys\" name=\"keys\" value=\"\" size=\"15\" maxlength=\"128\" class=\"form-search form-text form-element-radius\">",
+          "target": [
+            "#edit-keys"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"swiper-slide swiper-slide-active\" style=\"background-image: url(&quot;/sites/default/files/%E9%80%9A%E7%94%A8%E7%89%88%E8%A7%86%E8%A7%89.jpg&quot;); width: 800px;\" data-url=\"https://www.sysu.edu.cn/news/info/1881/1336541.htm\" data-swiper-slide-index=\"0\">",
+                  "target": [
+                    ".swiper-slide-active"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h3 class=\"title text-white outside-min-b\">庆祝孙中山先生创办中山大学100周年</h3>",
+          "target": [
+            ".swiper-slide-active > .inner > .inside-tb > div > .title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"icon size-lr\"></i>",
+          "target": [
+            "h2 > .size-lr.icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"icon\"></i>",
+          "target": [
+            ".size-b > .icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"icon size-l outside-r\"></i>",
+          "target": [
+            "p:nth-child(2) > .outside-r.icon.size-l"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"icon size-l outside-r\"></i>",
+          "target": [
+            "p:nth-child(3) > .outside-r.icon.size-l"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.47,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<time datetime=\"2024-09-26T19:06:40+08:00\">09-26</time>",
+          "target": [
+            "time[datetime=\"2024-09-26T19:06:40+08:00\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.47,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<time datetime=\"2024-09-19T14:59:00+08:00\">09-19</time>",
+          "target": [
+            "time[datetime=\"2024-09-19T14:59:00+08:00\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.47,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<time datetime=\"2024-09-13T16:14:30+08:00\">09-13</time>",
+          "target": [
+            "time[datetime=\"2024-09-13T16:14:30+08:00\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.47,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<time datetime=\"2024-05-26T17:04:00+08:00\">05-26</time>",
+          "target": [
+            "time[datetime=\"2024-05-26T17:04:00+08:00\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#777777",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.47,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<time datetime=\"2024-03-24T10:00:50+08:00\">03-24</time>",
+          "target": [
+            "time[datetime=\"2024-03-24T10:00:50+08:00\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

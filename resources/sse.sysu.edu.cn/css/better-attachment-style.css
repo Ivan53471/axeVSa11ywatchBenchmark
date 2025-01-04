@@ -1,0 +1,21 @@
+/* $Id: main.css 2011/09/23 14:44:55 WENROO Exp $ */
+/**
+ *
+ * @file
+ * Global Wenroo Styling
+ * Update 2016/07/01
+ *
+ **/
+.field.field-attachments {
+    padding: 10px 20px;
+    background: #F8F8F8;
+    line-height: 180%;
+    border-radius: 5px;
+    border: 1px solid #C5D8C5;
+}
+.field.field-attachments .field-label{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c5d2da;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

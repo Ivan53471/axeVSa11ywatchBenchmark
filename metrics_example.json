@@ -1,0 +1,18 @@
+{
+    "axe": {
+      "website": {
+        "time": "工具执行时间，单位为秒",
+        "issues_cnt": "检测出的问题数"
+      },
+      "average_time": "工具执行时间平均值",
+      "average_issues": "问题数平均值"
+    },
+    "a11ywatch": {
+      "website": {
+        "time": "工具执行时间，单位为秒",
+        "issues_cnt": "检测出的问题数"
+      },
+      "average_time": "工具执行时间平均值",
+      "average_issues": "问题数平均值"
+    }
+  }

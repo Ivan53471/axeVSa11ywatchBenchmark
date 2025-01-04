@@ -1,0 +1,154 @@
+(function ($) {
+  // 创建swiper对象
+  Drupal.behaviors.swiper5 = {
+    Default: function (e, index) {
+      var $this = $(e);
+      var options = {};
+      var setting = {};
+
+      // 默认配置
+      var _default = {
+        pagination: {
+          el: ".pagination-" + index,
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay:
+          $this.data("autoplay") === false
+            ? false
+            : {
+                delay: $this.data("autoplay") || 10000,
+                disableOnInteraction: false,
+              },
+        loop: true,
+        calculateHeight: $this.data("calculateheight") || false,
+        slidesPerView: $this.data("perview") || 1,
+        paginationClickable: true,
+        on: {
+          click: function () {
+            var url =
+              this.clickedSlide && this.clickedSlide.getAttribute("data-url");
+            if (url) window.open(url, "_blank");
+          },
+        },
+        // onSlideClick: function () {
+        //   if (this.clickedSlide.getAttribute("data-url")) {
+        //     var url = this.clickedSlide.getAttribute("data-url");
+        //     window.open(url, "_blank");
+        //   }
+        // },
+        // onSwiperCreated: function () {
+        //   console.log(this);
+        //   if (this.container.className.indexOf("numerical-pagination") > -1) {
+        //     $(e)
+        //       .find(".pagination span")
+        //       .each(function (key) {
+        //         $(this).append(key + 1);
+        //       });
+        //   }
+        // },
+      };
+
+      // 合并配置
+      if ($this.data("name")) {
+        if ((setting = Drupal.behaviors.swiperSettings[$this.data("name")])) {
+          options = _.extend(_default, setting);
+        }
+      } else {
+        options = _default;
+      }
+
+      // preview移动端配置
+      if ($("body").width() <= 768) {
+        options.slidesPerView = $this.data("mobile-perview") || 1;
+      }
+
+      return options;
+    },
+    // 实例化swiper
+    init: function (e, index) {
+      var mySwiper = new Swiper(e, this.Default(e, index));
+      $(mySwiper.container)
+        .find(".swiper-button-prev")
+        .on("click", function (e) {
+          e.preventDefault();
+          mySwiper.swipePrev();
+        });
+      $(mySwiper.container)
+        .find(".swiper-button-next")
+        .on("click", function (e) {
+          e.preventDefault();
+          mySwiper.swipeNext();
+        });
+
+      $(e)
+        .find(".swiper-wrapper")
+        .css("width", Math.ceil($(e).find(".swiper-wrapper").width()));
+      return mySwiper;
+    },
+    // 控制键外移
+    outsideArrow: function (swiperEL) {
+      swiperEL.wrap('<div class="swiper-outside"></div>');
+      $next = swiperEL.find(".swiper-button-next").css("right", "-20px");
+      $prev = swiperEL.find(".swiper-button-prev").css("left", "-30px");
+      $next.parent().after($next, $prev);
+    },
+    mutualNavigation: function (swiperContent, swiperNav) {
+      // swiperConetent实例
+      swiperContent.on("slideChangeTransitionStart", function () {
+        $(swiperNav.$el).find(".active-nav").removeClass("active-nav");
+        var index = swiperContent.realIndex;
+        $(swiperNav.$el).find(".swiper-slide").eq(index).addClass("active-nav");
+        // swiperNav.slideTo(index);
+      });
+      // swiperNav.on("slideChange", function () {
+      //   const index = swiperNav.activeIndex;
+      //   swiperContent.slideTo(index);
+      // });
+
+      swiperNav.on("click", function () {
+        const index = swiperNav.clickedIndex;
+        swiperContent.slideTo(index + 1);
+      });
+
+      $(swiperNav.$el).find(".swiper-slide-active").addClass("active-nav");
+    },
+  };
+  // 联动swiper对象
+  var swipeContent = "";
+  var swipeNav = "";
+
+  $(".swiper-container").each(function (index) {
+    $(this)
+      .find(".pagination")
+      .addClass("pagination-" + index);
+    $(this).addClass("swiper-container-" + index);
+
+    //绑定
+    if ($(this).hasClass("swiper-content")) {
+      swipeContent = Drupal.behaviors.swiper5.init(
+        ".swiper-container-" + index,
+        index
+      );
+    } else if ($(this).hasClass("swiper-nav")) {
+      swipeNav = Drupal.behaviors.swiper5.init(
+        ".swiper-container-" + index,
+        index
+      );
+    } else {
+      Drupal.behaviors.swiper5.init(".swiper-container-" + index, index);
+    }
+
+    //控制外移
+    if ($(this).data("outsidearrow")) {
+      Drupal.behaviors.swiper5.outsideArrow($(this));
+    }
+  });
+
+  if (typeof swipeContent == "object" && typeof swipeNav == "object") {
+    Drupal.behaviors.swiper5.mutualNavigation(swipeContent, swipeNav);
+  }
+})(jQuery);

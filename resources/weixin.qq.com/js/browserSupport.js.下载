@@ -1,0 +1,85 @@
+function isBrowserSupportedForVue3() {
+  // Feature detection for key Vue 3 requirements
+  var features = {
+    arrowFunctions: () => {
+      try {
+        new Function('() => {}');
+        return true;
+      } catch (e) {
+        return false;
+      }
+    },
+    const: () => {
+      try {
+        new Function('const a = 1');
+        return true;
+      } catch (e) {
+        return false;
+      }
+    },
+    promises: () => typeof Promise !== 'undefined',
+    proxy: () => typeof Proxy !== 'undefined',
+    symbol: () => typeof Symbol !== 'undefined',
+    templateLiteral: () => {
+      try {
+        new Function('`test`');
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+  };
+
+  // Check if all required features are supported
+  for (var key in features) {
+    if (features.hasOwnProperty(key) && !features[key]()) {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  if(!isBrowserSupportedForVue3()) {
+    console.log('This browser may not fully support Vue 3');
+    // 上报
+    doReportCube({
+      action: 'browser_not_support',
+    });
+    const upgradeNotice = document.createElement('div');
+    upgradeNotice.className = 'upgrade__notice';
+    upgradeNotice.textContent = '为了最好的体验，请升级您的浏览器';  
+    upgradeNotice.style = 'line-height: 48px; background-color: #ededed; font-size: 15px; color: rgba(0, 0, 0, 0.7); text-align: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;';
+    document.body.appendChild(upgradeNotice);    // Add your Vue 3 specific code here
+  }
+});
+
+function doReportCube(params) {
+  var data = {
+    moduleName: 'mmportalnodeweb',
+    biz: '3512',
+    label: 'portal.main'
+  };
+  var url = 'https://support.weixin.qq.com/cgi-bin/mmsupportmeshnodelogicsvr-bin/cube';
+  for (var key in params) {
+    if (params.hasOwnProperty(key)) {
+      data[key] = params[key];
+    }
+  }
+  if (typeof data.msg === 'string') {
+    data.msg = data.msg.substring(0, 100);
+  }
+  var urlParams = [];
+  for (var prop in data) {
+    if (data.hasOwnProperty(prop)) {
+      urlParams.push(encodeURIComponent(prop) + '=' + encodeURIComponent(data[prop]));
+    }
+  }
+  reportByImg(url + '?' + urlParams.join('&'));
+}
+function reportByImg(src) {
+  console.log('reportByImg', src);
+  var img = new Image();
+  img.src = src;
+}

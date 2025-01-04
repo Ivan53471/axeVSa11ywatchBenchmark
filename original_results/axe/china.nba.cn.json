@@ -1,0 +1,3294 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:45.355Z",
+  "url": "http://172.28.48.1:8080/resources/china.nba.cn/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"date-select\" type=\"button\" value=\"12月20日\">",
+          "target": [
+            "input"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"time\" data-v-e7ed11d4=\"\">第二节 04:21</div>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .time[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#b52532",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.41,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"status-2\" data-v-e7ed11d4=\"\">比赛中</div>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .status-2[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">活塞</span>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"time\" data-v-e7ed11d4=\"\">第二节 02:05</div>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .time[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#b52532",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.41,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"status-2\" data-v-e7ed11d4=\"\">比赛中</div>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .status-2[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">雷霆</span>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">55</div>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .score-start[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">魔术</span>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">43</div>",
+          "target": [
+            ".slide:nth-child(2) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .score-start[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"time\" data-v-e7ed11d4=\"\">第二节 02:02</div>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .time[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#b52532",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.41,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"status-2\" data-v-e7ed11d4=\"\">比赛中</div>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .status-2[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"time\" data-v-e7ed11d4=\"\">第一节 01:12</div>",
+          "target": [
+            ".slide:nth-child(4) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > a[target=\"_self\"][data-v-e7ed11d4=\"\"] > .list-time.flex[data-v-e7ed11d4=\"\"] > .time[data-v-e7ed11d4=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/https://web.nba.cn/asv/#/?utm_campaign=asv2025&amp;_channel_track_key=wfKJtEK7&amp;utm_source=nbaweb\" class=\"info-btn\" data-v-f511af0a=\"\">浏览</a>",
+          "target": [
+            ".info-btn"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"title\" data-v-dfd9bbea=\"\"><!----> 最新资讯</div>",
+          "target": [
+            ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(1) > .title-wrap.mb20[data-v-cb53806b=\"\"] > .title-left[data-v-dfd9bbea=\"\"] > .title[data-v-dfd9bbea=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-afde7d6d=\"\">布朗尼G联赛冬季展示杯首秀砍16+5 南湾湖人不敌蜂群</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .ellipsis.title[data-v-afde7d6d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-afde7d6d=\"\">唐斯：与森林狼的老队友们仍然是好兄弟 这不会因交易而发生改变</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .ellipsis.title[data-v-afde7d6d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-afde7d6d=\"\">鹈鹕官方：乔丹-霍金斯可以出战今日对阵火箭的比赛</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .ellipsis.title[data-v-afde7d6d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-afde7d6d=\"\">利拉德右小腿拉伤 将不会出战明日对阵骑士的比赛</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .ellipsis.title[data-v-afde7d6d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"title\" data-v-dfd9bbea=\"\"><!----> 最新视频</div>",
+          "target": [
+            ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(2) > .title-wrap.mb20[data-v-cb53806b=\"\"] > .title-left[data-v-dfd9bbea=\"\"] > .title[data-v-dfd9bbea=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-ba29e82d=\"\">纵享丝滑！萨格斯转身海底捞月一气呵成</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .ellipsis.title[data-v-ba29e82d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-ba29e82d=\"\">纵享丝滑！萨格斯转身海底捞月一气呵成</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .ellipsis.title[data-v-ba29e82d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-ba29e82d=\"\">里德送出盖帽</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .ellipsis.title[data-v-ba29e82d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title ellipsis\" data-v-ba29e82d=\"\">里德送出盖帽</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .ellipsis.title[data-v-ba29e82d=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0268d6",
+                "bgColor": "#ffffff",
+                "contrastRatio": 5.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title focus\" data-v-dfd9bbea=\"\">每日数据王</span>",
+          "target": [
+            ".focus"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-dfd9bbea=\"\">赛季数据王</span>",
+          "target": [
+            ".tabs > .title[data-v-dfd9bbea=\"\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-28384fee=\"\">得分</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"stat\" data-v-28384fee=\"\">7</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .stat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1628983\" class=\"name\" data-v-28384fee=\"\">谢伊<br data-v-28384fee=\"\">吉尔杰斯-亚历山大</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1630591\" class=\"name\" data-v-28384fee=\"\">杰伦<br data-v-28384fee=\"\">萨格斯</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">7</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1628392\" class=\"name\" data-v-28384fee=\"\">以赛亚<br data-v-28384fee=\"\">哈尔滕施泰因</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">6</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(1) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-28384fee=\"\">篮板</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"stat\" data-v-28384fee=\"\">5</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .stat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1631109\" class=\"name\" data-v-28384fee=\"\">马克<br data-v-28384fee=\"\">威廉姆斯</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1642267\" class=\"name\" data-v-28384fee=\"\">卡尔顿<br data-v-28384fee=\"\">卡林顿</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">3</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1629673\" class=\"name\" data-v-28384fee=\"\">乔丹<br data-v-28384fee=\"\">普尔</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">2</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(2) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-28384fee=\"\">助攻</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"stat\" data-v-28384fee=\"\">3</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .stat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1630163\" class=\"name\" data-v-28384fee=\"\">拉梅洛<br data-v-28384fee=\"\">鲍尔</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1631117\" class=\"name\" data-v-28384fee=\"\">沃克<br data-v-28384fee=\"\">凯斯勒</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">2</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1630591\" class=\"name\" data-v-28384fee=\"\">杰伦<br data-v-28384fee=\"\">萨格斯</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">2</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(3) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-28384fee=\"\">抢断</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"stat\" data-v-28384fee=\"\">1</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .stat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1631105\" class=\"name\" data-v-28384fee=\"\">杰伦<br data-v-28384fee=\"\">杜伦</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1628392\" class=\"name\" data-v-28384fee=\"\">以赛亚<br data-v-28384fee=\"\">哈尔滕施泰因</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">1</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(2) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1630591\" class=\"name\" data-v-28384fee=\"\">杰伦<br data-v-28384fee=\"\">萨格斯</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-left[data-v-28384fee=\"\"] > .second-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"stat leader-item-right\" data-v-28384fee=\"\">1</div>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(4) > .second-item.leader-item[data-v-28384fee=\"\"]:nth-child(3) > .leader-item-right.stat[data-v-28384fee=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-28384fee=\"\">盖帽</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(5) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"stat\" data-v-28384fee=\"\">1</span>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(5) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > div[data-v-28384fee=\"\"] > .stat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/player/1628392\" class=\"name\" data-v-28384fee=\"\">以赛亚<br data-v-28384fee=\"\">哈尔滕施泰因</a>",
+          "target": [
+            ".scroll-view[data-v-552a3d35=\"\"][data-v-e8641587=\"\"]:nth-child(1) > .scroll-wrap.flex[data-v-552a3d35=\"\"] > .block.ph2[data-v-e8641587=\"\"] > .item-wrap[data-v-28384fee=\"\"]:nth-child(5) > .first-item.leader-item[data-v-28384fee=\"\"] > .first-left[data-v-28384fee=\"\"] > .name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"title\" data-v-dfd9bbea=\"\"><!----> 专题</div>",
+          "target": [
+            ".title-wrap.mb20[data-v-5c9842b5=\"\"] > .title-left[data-v-dfd9bbea=\"\"] > .title[data-v-dfd9bbea=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-5c9842b5=\"\">休赛期观察</span>",
+          "target": [
+            ".item[data-v-5c9842b5=\"\"]:nth-child(1) > .hot-a[data-v-5c9842b5=\"\"] > .title[data-v-5c9842b5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-5c9842b5=\"\">历界常规赛MVP</span>",
+          "target": [
+            ".item[data-v-5c9842b5=\"\"]:nth-child(2) > .hot-a[data-v-5c9842b5=\"\"] > .title[data-v-5c9842b5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-5c9842b5=\"\">NBA历史</span>",
+          "target": [
+            ".item[data-v-5c9842b5=\"\"]:nth-child(3) > .hot-a[data-v-5c9842b5=\"\"] > .title[data-v-5c9842b5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#303339",
+                "bgColor": "#ffffff",
+                "contrastRatio": 12.66,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 12.66"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title\" data-v-5c9842b5=\"\">NBA 50 大球星</span>",
+          "target": [
+            ".item[data-v-5c9842b5=\"\"]:nth-child(4) > .hot-a[data-v-5c9842b5=\"\"] > .title[data-v-5c9842b5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"title\" data-v-67ab87c5=\"\">关于</li>",
+          "target": [
+            ".ulBlock:nth-child(1) > .title[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/article/20210907005576\" data-v-67ab87c5=\"\">NBA就职机会</a>",
+          "target": [
+            ".ulBlock:nth-child(1) > li[data-v-67ab87c5=\"\"]:nth-child(2) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"title\" data-v-67ab87c5=\"\">NBA赛事</li>",
+          "target": [
+            ".ulBlock:nth-child(2) > .title[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/draft\" data-v-67ab87c5=\"\">选秀大会</a>",
+          "target": [
+            "a[href$=\"draft\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"title\" data-v-67ab87c5=\"\">专题</li>",
+          "target": [
+            ".ulBlock:nth-child(3) > .title[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/topics/association.htm\" data-v-67ab87c5=\"\">联盟的骄傲</a>",
+          "target": [
+            ".ulBlock:nth-child(3) > li[data-v-67ab87c5=\"\"]:nth-child(2) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/topics/summerofslam.htm\" data-v-67ab87c5=\"\">扣响盛夏</a>",
+          "target": [
+            ".ulBlock:nth-child(3) > li[data-v-67ab87c5=\"\"]:nth-child(3) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"title\" data-v-67ab87c5=\"\">NBA101</li>",
+          "target": [
+            ".ulBlock:nth-child(4) > .title[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/topics/history.htm\" data-v-67ab87c5=\"\">NBA历史</a>",
+          "target": [
+            ".ulBlock:nth-child(4) > li[data-v-67ab87c5=\"\"]:nth-child(2) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/topics/50players.htm\" data-v-67ab87c5=\"\">NBA50大球星</a>",
+          "target": [
+            ".ulBlock:nth-child(4) > li[data-v-67ab87c5=\"\"]:nth-child(3) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://china.nba.cn/topics/faq/index.htm\" data-v-67ab87c5=\"\">NBA知识Q&amp;A</a>",
+          "target": [
+            "li[data-v-67ab87c5=\"\"]:nth-child(4) > a[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"title\" data-v-67ab87c5=\"\">NBA官方应用</li>",
+          "target": [
+            ".ulBlock:nth-child(5) > .title[data-v-67ab87c5=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p data-v-67ab87c5=\"\">",
+          "target": [
+            "p:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p data-v-67ab87c5=\"\"><a target=\"_blank\" href=\"https://china.nba.cn/\" data-v-67ab87c5=\"\">china.nba.cn</a>上除去<a target=\"_blank\" href=\"https://res.nba.cn/static/client_static/use-wap.html\" data-v-67ab87c5=\"\">使用条款</a>中所特别提及的部分之外，其它任何内容都不得以任何形式被复制、再传播，或篡改。</p>",
+          "target": [
+            "p:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#051c2d",
+                "contrastRatio": 17.34,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.34"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p data-v-67ab87c5=\"\">",
+          "target": [
+            "p:nth-child(3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a aria-current=\"page\" href=\"https://china.nba.cn/index\" class=\"router-link-active router-link-exact-active\" data-v-fcd29661=\"\">首页</a>",
+          "target": [
+            ".router-link-active"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/videos\" class=\"\" data-v-fcd29661=\"\">视频</a>",
+          "target": [
+            "a[href$=\"videos\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/news\" class=\"\" data-v-fcd29661=\"\">新闻</a>",
+          "target": [
+            "a[href$=\"news\"][data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/teamindex\" class=\"\" data-v-fcd29661=\"\">球队</a>",
+          "target": [
+            "a[href=\"https://china.nba.cn/teamindex\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/playerindex\" class=\"\" data-v-fcd29661=\"\">球员</a>",
+          "target": [
+            ".menu-item[data-v-fcd29661=\"\"]:nth-child(6) > .link[data-v-fcd29661=\"\"] > a[data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/schedule\" class=\"\" data-v-fcd29661=\"\">赛程</a>",
+          "target": [
+            ".link[data-v-fcd29661=\"\"] > a[href$=\"schedule\"][data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/standings\" class=\"\" data-v-fcd29661=\"\">排名</a>",
+          "target": [
+            "a[href$=\"standings\"][data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/statistics/leagueleaders\" class=\"\" data-v-fcd29661=\"\">数据</a>",
+          "target": [
+            ".menu-item[data-v-fcd29661=\"\"]:nth-child(9) > .link[data-v-fcd29661=\"\"] > a[data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/2018summer.htm\" target=\"_self\" data-v-fcd29661=\"\">专题</a>",
+          "target": [
+            ".menu-item[data-v-fcd29661=\"\"]:nth-child(10) > .link[data-v-fcd29661=\"\"] > a[target=\"_self\"][data-v-fcd29661=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://china.nba.cn/school/\" target=\"_self\" data-v-fcd29661=\"\">篮球训练中心</a>",
+          "target": [
+            "a[href$=\"school/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">爵士</span>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">57</div>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .score-start[data-v-e7ed11d4=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">45</div>",
+          "target": [
+            ".slide:nth-child(1) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .score-start[data-v-e7ed11d4=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">黄蜂</span>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">54</div>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .score-start[data-v-e7ed11d4=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">奇才</span>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"score-start\" data-v-e7ed11d4=\"\">53</div>",
+          "target": [
+            ".slide:nth-child(3) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .score-start[data-v-e7ed11d4=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">公牛</span>",
+          "target": [
+            ".slide:nth-child(4) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(2) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"name\" data-v-e7ed11d4=\"\">凯尔特人</span>",
+          "target": [
+            ".slide:nth-child(4) > .list-card[data-v-e7ed11d4=\"\"] > .list-box[data-v-e7ed11d4=\"\"] > .list-con.flex[data-v-e7ed11d4=\"\"]:nth-child(3) > .team-box[data-v-e7ed11d4=\"\"] > .name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "30.0pt (40px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"info-text\" data-v-f511af0a=\"\">2025年NBA全明星投票正式开启 赛制改革星耀湾区</div>",
+          "target": [
+            ".info-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:13</span>",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"thumbnail\" src=\"./images/94a5cf79-f8fb-4811-88f5-4f6a3da47d90_0_y.jpg\" data-v-ba29e82d=\"\">",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .thumbnail[data-v-ba29e82d=\"\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:13</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:13</span>",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"thumbnail\" src=\"./images/6a971521-4187-4664-a151-828a0a5bebc8_y.jpg\" data-v-ba29e82d=\"\">",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .thumbnail[data-v-ba29e82d=\"\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:13</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:12</span>",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"thumbnail\" src=\"./images/bb9e7cee-257e-4728-981b-45a5963e5778_0_y.jpg\" data-v-ba29e82d=\"\">",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .thumbnail[data-v-ba29e82d=\"\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:12</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:12</span>",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"thumbnail\" src=\"./images/5df5d8a5-f4c7-4ec1-9849-95ced472d6e9_y.jpg\" data-v-ba29e82d=\"\">",
+                  "target": [
+                    ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .thumbnail[data-v-ba29e82d=\"\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"runtime\" data-v-ba29e82d=\"\">00:12</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .img-box[data-v-ba29e82d=\"\"] > .play_icon[data-v-ba29e82d=\"\"] > .runtime[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"pageIndex\" data-v-cedcbffb=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".pageIndex"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h3 data-v-222aba81=\"\">NBA官方合作伙伴</h3>",
+          "target": [
+            "h3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-afde7d6d=\"\">1小时前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .time[data-v-afde7d6d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-afde7d6d=\"\">1小时前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .time[data-v-afde7d6d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-afde7d6d=\"\">2小时前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .time[data-v-afde7d6d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-afde7d6d=\"\">2小时前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-afde7d6d=\"\"] > .hot-a[data-v-afde7d6d=\"\"] > .text-box[data-v-afde7d6d=\"\"] > .time[data-v-afde7d6d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-ba29e82d=\"\">5分钟前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(1) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .time[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-ba29e82d=\"\">5分钟前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(2) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .time[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-ba29e82d=\"\">5分钟前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(3) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .time[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#98999c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.84,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"content-wrap boxShadow mb20 news-wrap\" data-v-af912c37=\"\" data-v-cb53806b=\"\">",
+                  "target": [
+                    ".news-wrap.content-wrap[data-v-af912c37=\"\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"time\" data-v-ba29e82d=\"\">5分钟前</span>",
+          "target": [
+            ".item[data-v-cb53806b=\"\"]:nth-child(4) > .video-item[data-v-cb53806b=\"\"][data-v-ba29e82d=\"\"] > .hot-a[data-v-ba29e82d=\"\"] > .text-box[data-v-ba29e82d=\"\"] > .time[data-v-ba29e82d=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #98999c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" data-v-67ab87c5=\"\">京ICP备06066266号-6</a>",
+          "target": [
+            "a[href$=\"beian.miit.gov.cn/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010702002526\" target=\"_blank\" data-v-67ab87c5=\"\"><img src=\"./images/备案图标.png\" style=\"position:relative;top:4px;\" data-v-67ab87c5=\"\"> 京公网安备 11010702002526号</a>",
+          "target": [
+            "p:nth-child(1) > a[target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://china.nba.cn/\" data-v-67ab87c5=\"\">china.nba.cn</a>",
+          "target": [
+            "p:nth-child(2) > a[href$=\"china.nba.cn/\"][target=\"_blank\"][data-v-67ab87c5=\"\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://res.nba.cn/static/client_static/use-wap.html\" data-v-67ab87c5=\"\">使用条款</a>",
+          "target": [
+            "p:nth-child(2) > a[target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://china.nba.cn/\" data-v-67ab87c5=\"\">china.nba.cn</a>",
+          "target": [
+            "p:nth-child(3) > a[href$=\"china.nba.cn/\"][target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://china.nba.cn/\" data-v-67ab87c5=\"\">china.nba.cn</a>",
+          "target": [
+            "a[href$=\"china.nba.cn/\"][target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://res.nba.cn/static/client_static/privacy-wap.html\" data-v-67ab87c5=\"\">隐私政策</a>",
+          "target": [
+            "p:nth-child(3) > a[target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#20496e",
+                "bgColor": "#051c2d",
+                "contrastRatio": 1.85,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer-wrapper\" data-v-67ab87c5=\"\" data-v-3269e434=\"\">",
+                  "target": [
+                    ".footer-wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" href=\"https://res.nba.cn/static/client_static/use-wap.html\" data-v-67ab87c5=\"\">使用条款</a>",
+          "target": [
+            "a[target=\"_blank\"][data-v-67ab87c5=\"\"]:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.85 (foreground color: #20496e, background color: #051c2d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": "critical",
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": "user-scalable=no",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "user-scalable=no on <meta> tag disables zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+        }
+      ]
+    }
+  ]
+}

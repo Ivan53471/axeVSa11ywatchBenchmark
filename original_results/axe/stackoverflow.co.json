@@ -1,0 +1,3297 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:53.390Z",
+  "url": "http://172.28.48.1:8080/resources/stackoverflow.co/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 18.41,
+                "fontSize": "25.5pt (34px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"p-ff-roboto-slab-bold fs-headline2 ws-nowrap\" data-v-b826d95d=\"\">16 years</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(1) > .p-ff-roboto-slab-bold.fs-headline2.ws-nowrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fc-black-500\" data-v-b826d95d=\"\">of trusted and high-quality knowledge</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(1) > .fc-black-500"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 18.41,
+                "fontSize": "25.5pt (34px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"p-ff-roboto-slab-bold fs-headline2 ws-nowrap\" data-v-b826d95d=\"\">14 seconds</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(2) > .p-ff-roboto-slab-bold.fs-headline2.ws-nowrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fc-black-500\" data-v-b826d95d=\"\">average time between new questions</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(2) > .fc-black-500"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 18.41,
+                "fontSize": "25.5pt (34px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"p-ff-roboto-slab-bold fs-headline2 ws-nowrap\" data-v-b826d95d=\"\">58 million</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(3) > .p-ff-roboto-slab-bold.fs-headline2.ws-nowrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fc-black-500\" data-v-b826d95d=\"\">total questions and answers so far</div>",
+          "target": [
+            ".br.md\\:brw0.mbn1:nth-child(3) > .fc-black-500"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 18.41,
+                "fontSize": "25.5pt (34px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.41"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"p-ff-roboto-slab-bold fs-headline2 ws-nowrap\" data-v-b826d95d=\"\">51 billion</div>",
+          "target": [
+            ".flex--item3.py32.bg-black-150:nth-child(4) > .p-ff-roboto-slab-bold.fs-headline2.ws-nowrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fc-black-500\" data-v-b826d95d=\"\">times knowledge has been reused</div>",
+          "target": [
+            ".flex--item3.py32.bg-black-150:nth-child(4) > .fc-black-500"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fc-black-400 fs-subheading\" data-v-b826d95d=\"\"> Supporting the innovative teams at… </p>",
+          "target": [
+            ".pb96 > .fs-subheading:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fc-black-400 mb16 fs-subheading mt64\" data-v-b826d95d=\"\"> Partnering with industry leaders… </p>",
+          "target": [
+            ".mb16"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 19.45,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"blr-lg bg-white px16 py6\" data-v-b826d95d=\"\"><strong class=\"mr4\" data-v-b826d95d=\"\">The Best of the Internet</strong> 2021 </div>",
+          "target": [
+            ".px16"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0d0e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 19.45,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"mr4\" data-v-b826d95d=\"\">The Best of the Internet</strong>",
+          "target": [
+            ".px16 > .mr4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d1e1f",
+                "bgColor": "#eef6fd",
+                "contrastRatio": 15.29,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"blr-lg bg-blue-100 pl16 pr24 py6 mrn12\" data-v-b826d95d=\"\"> The API Awards <strong class=\"mr4\" data-v-b826d95d=\"\">Best AI API</strong> 2024 </div>",
+          "target": [
+            ".mrn12"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d1e1f",
+                "bgColor": "#eef6fd",
+                "contrastRatio": 15.29,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"mr4\" data-v-b826d95d=\"\">Best AI API</strong>",
+          "target": [
+            ".mrn12 > .mr4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fefeff",
+                "bgColor": "#5e64d0",
+                "contrastRatio": 4.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/\" class=\"s-btn bg-purple-400 h:bg-blue-600 px32 fs-body2 fw-bold fc-white d:fc-white\" data-v-b826d95d=\"\"> Discover Teams </a>",
+          "target": [
+            ".h\\:bg-blue-600"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#191a1c",
+                "bgColor": "#fefeff",
+                "contrastRatio": 17.27,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.27"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"mx12\" data-v-b826d95d=\"\">G2 Leader</div>",
+          "target": [
+            ".mx12"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#191a1c",
+                "bgColor": "#fefeff",
+                "contrastRatio": 17.27,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 17.27"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div data-v-b826d95d=\"\">",
+          "target": [
+            ".pr24.jc-center.pl12 > div:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#3b4045",
+                "contrastRatio": 10.29,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-title mb32 wmx7\" data-v-b826d95d=\"\"><strong data-v-b826d95d=\"\">Now available!</strong> A suite of GenAI tools for Stack Overflow for Teams that helps connect employees to knowledge faster. </p>",
+          "target": [
+            ".wmx7.fs-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#3b4045",
+                "contrastRatio": 10.29,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong data-v-b826d95d=\"\">Now available!</strong>",
+          "target": [
+            ".wmx7.fs-title > strong"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#3b4045",
+                "contrastRatio": 10.29,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"d-flex ai-center mb8 fs-body3\" data-v-b826d95d=\"\">",
+          "target": [
+            ".mb8.fs-body3.ai-center:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#3b4045",
+                "contrastRatio": 10.29,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"d-flex ai-center mb8 fs-body3\" data-v-b826d95d=\"\">",
+          "target": [
+            ".mb8.fs-body3.ai-center:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#3b4045",
+                "contrastRatio": 10.29,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.29"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"d-flex ai-center mb8 fs-body3\" data-v-b826d95d=\"\">",
+          "target": [
+            ".mb8.fs-body3.ai-center:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fdfdfd",
+                "bgColor": "#555bcc",
+                "contrastRatio": 5.49,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.49"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/ai/\" class=\"s-btn bg-purple-400 h:bg-orange-400 px32 fs-body2 fw-bold fc-white\" data-v-b826d95d=\"\"> All AI features </a>",
+          "target": [
+            ".h\\:bg-orange-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#17191a",
+                "bgColor": "#edf5fd",
+                "contrastRatio": 16.02,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.02"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-title mb32 wmx5\" data-v-b826d95d=\"\"> Reach the world’s largest audience of developers and technologists. </p>",
+          "target": [
+            ".bg-blue-100.pt48.pb6 > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24 > .wmx5.fs-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0c0c0d",
+                "bgColor": "#feb80d",
+                "contrastRatio": 11.24,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.24"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/\" class=\"s-btn bg-stack-goldenrod px32 fs-body2 fw-bold fc-black d:fc-white\" data-v-b826d95d=\"\"> Explore solutions </a>",
+          "target": [
+            ".bg-stack-goldenrod"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1366c6",
+                "bgColor": "#edf5fd",
+                "contrastRatio": 5.09,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.09"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"px8 fc-blue-500 fw-bold\" data-v-b826d95d=\"\">·</span>",
+          "target": [
+            ".px8"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-subheading fc-black-500 wmx3\" data-v-b826d95d=\"\"> Check out our <strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\">FAQ about how Stack Overflow</strong> works. </p>",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(1) > .wmx3.fs-subheading"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\">FAQ about how Stack Overflow</strong>",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(1) > .wmx3.fs-subheading > .p-ff-source-bold"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-subheading fc-black-500 wmx3\" data-v-b826d95d=\"\"> To share <strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\">feedback about our platform</strong>, please visit our meta community. </p>",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(2) > .wmx3.fs-subheading"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\">feedback about our platform</strong>",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(2) > .wmx3.fs-subheading > .p-ff-source-bold"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-subheading fc-black-500 wmx3\" data-v-b826d95d=\"\"> Looking for help with <strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\"> Stack Overflow for Teams? </strong></p>",
+          "target": [
+            "a[href$=\"stackoverflow.help/\"] > .wmx3.fs-subheading"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"p-ff-source-bold\" data-v-b826d95d=\"\"> Stack Overflow for Teams? </strong>",
+          "target": [
+            "a[href$=\"stackoverflow.help/\"] > .wmx3.fs-subheading > .p-ff-source-bold"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"fs-subheading fc-black-500 wmx2\" data-v-b826d95d=\"\"> Find <strong data-v-b826d95d=\"\">legal documents</strong> for our products and services. </p>",
+          "target": [
+            ".wmx2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#3b4045",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 9.91,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.91"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong data-v-b826d95d=\"\">legal documents</strong>",
+          "target": [
+            ".wmx2 > strong"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 5.11,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.11"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label for=\"theme-light\">Light</label>",
+          "target": [
+            "label[for=\"theme-light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 5.11,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.11"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label for=\"theme-dark\">Dark</label>",
+          "target": [
+            "label[for=\"theme-dark\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 5.11,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.11"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label for=\"theme-system\">Auto</label>",
+          "target": [
+            "label[for=\"theme-system\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/\" class=\"fs-body3 fw-bold bt bc-orange-400 py16 mb6\" data-v-2c619c8c=\"\"> Stack Overflow for Teams </a>",
+          "target": [
+            ".bc-orange-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/pricing/\" data-v-2c619c8c=\"\">Pricing</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/customers/\" data-v-2c619c8c=\"\">Customers</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/our-solution/\" data-v-2c619c8c=\"\">Our solution</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/integrations/\" data-v-2c619c8c=\"\">Integrations</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/features/\" data-v-2c619c8c=\"\">Features</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/customer-success/\" data-v-2c619c8c=\"\">Customer Success</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/security/\" data-v-2c619c8c=\"\">Security</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(7)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/roi/\" data-v-2c619c8c=\"\">Return on Investment (ROI)</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(8)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fw-bold d-block\" data-v-2c619c8c=\"\">OverflowAI <span class=\"fs-fine bg-purple-400 fc-white px4 py1 va-middle mtn1 ml2\" style=\"border-radius:2px;\" data-v-2c619c8c=\"\">NEW</span></div>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > .td-none > .fw-bold.d-block[data-v-2c619c8c=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#555bce",
+                "contrastRatio": 5.56,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"fs-fine bg-purple-400 fc-white px4 py1 va-middle mtn1 ml2\" style=\"border-radius:2px;\" data-v-2c619c8c=\"\">NEW</span>",
+          "target": [
+            ".fw-bold.d-block[data-v-2c619c8c=\"\"] > .fs-fine.px4.py1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fs-body lh-md fc-black-400\" data-v-2c619c8c=\"\">Now available on Enterprise.</div>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > .td-none > .fs-body.lh-md.fc-black-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflowteams.com/teams/create/free/?utm_source=so-teams&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=co-product-sites\" data-v-2c619c8c=\"\">Try free</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(12)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflowteams.com/users/login/?utm_source=so-teams&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=co-product-sites\" data-v-2c619c8c=\"\">Log in</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(13)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"d-block fc-black-400 mb6\" data-v-2c619c8c=\"\">Use cases</strong>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > .fc-black-400.mb6:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/use-cases/engineering/\" data-v-2c619c8c=\"\">Engineers</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/use-cases/data-analytics/\" data-v-2c619c8c=\"\">Data Scientists</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/use-cases/devops/\" data-v-2c619c8c=\"\">DevOps &amp; SRE</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/use-cases/customer-support/\" data-v-2c619c8c=\"\">Support</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/use-cases/product-management/\" data-v-2c619c8c=\"\">Product Managment</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"d-block fc-black-400 mb6\" data-v-2c619c8c=\"\">Resources</strong>",
+          "target": [
+            ".fc-black-400.mb6:nth-child(8)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/resources/category/productivity/\" data-v-2c619c8c=\"\">Productivity</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(9)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/resources/category/ai/\" data-v-2c619c8c=\"\">AI/ML</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(10)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/resources/category/guides-insights/\" data-v-2c619c8c=\"\">Guides and Insights</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(11)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/resources/category/academy/\" data-v-2c619c8c=\"\">Customer Academy</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(1) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(12)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/teams/resources/faq/\" data-v-2c619c8c=\"\">FAQ</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(14)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflowteams.help/\" data-v-2c619c8c=\"\">Help center</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(15)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/\" class=\"fs-body3 fw-bold bt bc-blue-400 py16 mb6\" data-v-2c619c8c=\"\"> Stack Overflow Advertising </a>",
+          "target": [
+            ".bc-blue-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/why-stack/\" data-v-2c619c8c=\"\">Why Stack Overflow?</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/what-to-expect/\" data-v-2c619c8c=\"\">What to expect</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/advertise-to-developers/\" data-v-2c619c8c=\"\">Advertise to developers</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/employer-branding/\" data-v-2c619c8c=\"\">Attract tech talent</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(1) > a:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fw-bold d-block\" data-v-2c619c8c=\"\">",
+          "target": [
+            "a[target=\"_blank\"] > .fw-bold.d-block[data-v-2c619c8c=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fs-body lh-md fc-black-400\" data-v-2c619c8c=\"\">Powered by Indeed</div>",
+          "target": [
+            "a[target=\"_blank\"] > .fs-body.lh-md.fc-black-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"d-block fc-black-400 mb6\" data-v-2c619c8c=\"\">Use cases</strong>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > .fc-black-400.mb6:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/marketing-teams/\" data-v-2c619c8c=\"\">Marketing Teams</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/employer-branding-teams/\" data-v-2c619c8c=\"\">Employer Branding Teams</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/devrel-teams/\" data-v-2c619c8c=\"\">DevRel Teams</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/talent-teams/\" data-v-2c619c8c=\"\">Talent Teams</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/technology-teams\" data-v-2c619c8c=\"\">Technology Teams</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/use-cases/agencies/\" data-v-2c619c8c=\"\">Agencies</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(7)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong class=\"d-block fc-black-400 mb6\" data-v-2c619c8c=\"\">Resources</strong>",
+          "target": [
+            ".fc-black-400.mb6:nth-child(9)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/resources/category/product-guides-insights/\" data-v-2c619c8c=\"\">Product guides &amp; insights</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(10)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/resources/category/community-insights/\" data-v-2c619c8c=\"\">Community insights</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(11)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/resources/category/advertising-best-practices/\" data-v-2c619c8c=\"\">Advertising best practices</a>",
+          "target": [
+            ".flex--item5.mb32[data-v-2c619c8c=\"\"]:nth-child(2) > .d-flex[data-v-2c619c8c=\"\"] > .flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(12)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/advertising/resources/category/talent-best-practices/\" data-v-2c619c8c=\"\">Talent best practices</a>",
+          "target": [
+            ".flex--item6[data-v-2c619c8c=\"\"]:nth-child(2) > a:nth-child(13)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/\" class=\"fs-body3 fw-bold bt bc-black-300 py16 mb6\" data-v-2c619c8c=\"\"> Company </a>",
+          "target": [
+            ".bc-black-300"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fw-bold\" data-v-2c619c8c=\"\"> OverflowAPI <span class=\"fs-fine bg-purple-400 fc-white px4 py1 va-middle mtn1 ml2\" style=\"border-radius:2px;\" data-v-2c619c8c=\"\">NEW</span></div>",
+          "target": [
+            ".mln24 > .fw-bold[data-v-2c619c8c=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#555bce",
+                "contrastRatio": 5.56,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"fs-fine bg-purple-400 fc-white px4 py1 va-middle mtn1 ml2\" style=\"border-radius:2px;\" data-v-2c619c8c=\"\">NEW</span>",
+          "target": [
+            ".mln24 > .fw-bold[data-v-2c619c8c=\"\"] > .fs-fine.px4.py1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"fs-body lh-md fc-black-400\" data-v-2c619c8c=\"\"> Stack Overflow’s subscription-based API service to train and fine-tune large language models. </div>",
+          "target": [
+            ".mln24 > .fs-body.lh-md.fc-black-400"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/\" data-v-2c619c8c=\"\">About</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/leadership/\" data-v-2c619c8c=\"\">Leadership</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/social-impact/\" data-v-2c619c8c=\"\">Social Impact</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/press/\" data-v-2c619c8c=\"\">Press</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/careers/\" data-v-2c619c8c=\"\">Careers</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(7)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/work-here/\" data-v-2c619c8c=\"\">Open positions</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(8)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/company/contact/\" data-v-2c619c8c=\"\">Contact us</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(9)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.blog/\" data-v-2c619c8c=\"\">Blog</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a[href$=\"stackoverflow.blog/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.blog/newsletter/\" data-v-2c619c8c=\"\">Newsletter</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(12)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.blog/podcast/\" data-v-2c619c8c=\"\">Podcast</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(13)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.co/labs/\" data-v-2c619c8c=\"\">Labs</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a[href$=\"labs/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://survey.stackoverflow.co/\" data-v-2c619c8c=\"\">Annual Developer Survey</a>",
+          "target": [
+            ".flex--item2.mb32[data-v-2c619c8c=\"\"] > a:nth-child(15)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#636b74",
+                "bgColor": "#fffffb",
+                "contrastRatio": 5.39,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.39"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"py24 flex--item5\" data-v-2c619c8c=\"\"> Site design / logo © 2024 Stack Exchange Inc.<br data-v-2c619c8c=\"\"> User contributions licensed under&nbsp;CC BY-SA. </div>",
+          "target": [
+            ".py24.flex--item5[data-v-2c619c8c=\"\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"flex--item mr24\" href=\"https://policies.stackoverflow.co/\" data-v-2c619c8c=\"\">Terms</a>",
+          "target": [
+            ".mr24.flex--item:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"flex--item mr24\" href=\"https://stackoverflow.com/legal/privacy-policy/\" data-v-2c619c8c=\"\">Privacy policy</a>",
+          "target": [
+            ".mr24.flex--item:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"flex--item mr24\" href=\"https://stackoverflow.com/legal/cookie-policy/\" data-v-2c619c8c=\"\">Cookie policy</a>",
+          "target": [
+            ".mr24.flex--item:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\"flex--item mr24 c-pointer s-btn s-btn__unset p0 as-start fc-black h:fc-blue-500\" type=\"button\" href=\"javascript:void(0)\" onclick=\"OneTrust.ToggleInfoDisplay()\" title=\"Open OneTrust cookie settings\" data-v-2c619c8c=\"\">Cookie settings</button>",
+          "target": [
+            ".c-pointer"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#fffffb",
+                "contrastRatio": 20.94,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 20.94"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://stackoverflow.com/\" data-v-2c619c8c=\"\"> Go to stackoverflow.com </a>",
+          "target": [
+            ".md\\:pb0 > a[href$=\"stackoverflow.com/\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "<meta> tag does not disable zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "0.0pt (0px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\"p-nav__product d-none md:d-block mr32 md:mr0 md:order-last md:ml-auto\" aria-controls=\"nav-main\" data-v-0aca008c=\"\"><span data-v-0aca008c=\"\">Menu</span></button>",
+                  "target": [
+                    ".p-nav__product"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span data-v-0aca008c=\"\">Menu</span>",
+          "target": [
+            ".p-nav__product > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "41.3pt (55px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<header class=\"header overflow-hidden\" data-v-b826d95d=\"\">",
+                  "target": [
+                    "header"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h1 style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fs-display2 p-lh-sm p-ff-roboto-slab mb32 wmx12 mx-auto\" data-v-b826d95d=\"\">",
+          "target": [
+            "h1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "41.3pt (55px)",
+                "fontWeight": "bold",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<header class=\"header overflow-hidden\" data-v-b826d95d=\"\">",
+                  "target": [
+                    "header"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<strong data-v-b826d95d=\"\">through collective knowledge</strong>",
+          "target": [
+            "h1 > strong"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<header class=\"header overflow-hidden\" data-v-b826d95d=\"\">",
+                  "target": [
+                    "header"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p style=\"visibility: inherit; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);\" class=\"fc-black-500 fs-title wmx5 mb64 mx-auto\" data-v-b826d95d=\"\"> Our products and tools enable people to ask, share and learn at work or at home. </p>",
+          "target": [
+            ".mb64"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div style=\"background: url(&quot;/img/product/teams/bg-bit-dark.svg&quot;) 100% 90% / 48px 48px no-repeat; translate: none; rotate: none; scale: none; opacity: 0.9987; visibility: inherit; transform: translate(0%, 0.013%) translate3d(0px, 0px, 0px);\" class=\"flex--item6 d-flex fd-column ai-start p64 pt24 md:pl24 md:pt0 md:pr24\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".bg-orange-100.pt48.pb6 > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"fs-title mb32 wmx5\" data-v-b826d95d=\"\"> We’re best known for our public Q&amp;A platform that millions of people visit every month to ask questions, learn, and share technical knowledge. </p>",
+          "target": [
+            ".bg-orange-100.pt48.pb6 > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24 > .wmx5.fs-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"api-solutions ba bc-black-250 p-bar-lg p64 md:pl24 md:pt24 md:pb24 md:pr24 overflow-hidden mb32 animate-children\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".api-solutions"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"fs-title wmx5 mb24\" data-v-b826d95d=\"\">A subscription-based API service that provides continuous access to Stack Overflow’s public dataset to train and fine-tune large language models.</p>",
+          "target": [
+            ".api-solutions > div > .wmx5.fs-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.8pt (21px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div style=\"background: url(&quot;/img/product/teams/bg-bit-dark.svg&quot;) 100% 90% / 32px 32px no-repeat; translate: none; rotate: none; scale: none; opacity: 0.9417; visibility: inherit; transform: translate(0%, 0.5831%) translate3d(0px, 0px, 0px) scale(1.0017, 1.0017);\" class=\"flex--item6 d-flex fd-column ai-start p64 pt24 md:pl24 md:pt0 md:pr24\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".bg-pale-purple > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"fs-title mb32 wmx5\" data-v-b826d95d=\"\"> Where developers and technologists share private knowledge with coworkers. </p>",
+          "target": [
+            ".bg-pale-purple > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24 > .wmx5.fs-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div style=\"background: url(&quot;/img/product/teams/bg-bit-dark.svg&quot;) 100% 90% / 32px 32px no-repeat; translate: none; rotate: none; scale: none; opacity: 0.9417; visibility: inherit; transform: translate(0%, 0.5831%) translate3d(0px, 0px, 0px) scale(1.0017, 1.0017);\" class=\"flex--item6 d-flex fd-column ai-start p64 pt24 md:pl24 md:pt0 md:pr24\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".bg-pale-purple > .animate-children.md\\:fd-column.d-flex > .p64.md\\:pt0.pt24"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\"s-btn p-btn--secondary d-block ta-center fs-body3 px32 py12 h:bg-transparent h:fc-blue-600\" video=\"Teams\" data-v-b826d95d=\"\">",
+          "target": [
+            ".py12"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#e7700d",
+                "contrastRatio": 3.12,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\"> Join the community </a>",
+                  "target": [
+                    ".h\\:bg-orange-500"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.12 (foreground color: #ffffff, background color: #e7700d, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://stackoverflow.com/questions/\" class=\"s-btn bg-orange-400 h:bg-orange-500 wmn2 fs-body2 fw-bold fc-white d:fc-black\" data-v-b826d95d=\"\"> Join the community </a>",
+          "target": [
+            ".h\\:bg-orange-500"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.12 (foreground color: #ffffff, background color: #e7700d, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b7fd3",
+                "contrastRatio": 4.13,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://stackoverflow.co/api-solutions/\" class=\"ml-auto md:w100 s-btn s-btn__filled px32 fs-body2 fw-bold\" data-v-b826d95d=\"\"> Learn more </a>",
+                  "target": [
+                    ".s-btn__filled"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.13 (foreground color: #ffffff, background color: #2b7fd3, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://stackoverflow.co/api-solutions/\" class=\"ml-auto md:w100 s-btn s-btn__filled px32 fs-body2 fw-bold\" data-v-b826d95d=\"\"> Learn more </a>",
+          "target": [
+            ".s-btn__filled"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.13 (foreground color: #ffffff, background color: #2b7fd3, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#267bd2",
+                "bgColor": "#edf5fd",
+                "contrastRatio": 3.93,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"bg-blue-100 p-bar-lg pt48 pb6 pr6 overflow-hidden mb32\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".bg-blue-100.pt48.pb6"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.93 (foreground color: #267bd2, background color: #edf5fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://stackoverflow.co/advertising/advertise-to-developers/\" class=\"s-link fs-body2 td-underline\" data-v-b826d95d=\"\">Advertise to developers</a>",
+          "target": [
+            ".s-link.td-underline.fs-body2:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #267bd2, background color: #edf5fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#267bd2",
+                "bgColor": "#edf5fd",
+                "contrastRatio": 3.93,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"bg-blue-100 p-bar-lg pt48 pb6 pr6 overflow-hidden mb32\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".bg-blue-100.pt48.pb6"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.93 (foreground color: #267bd2, background color: #edf5fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://stackoverflow.co/advertising/employer-branding/\" class=\"s-link fs-body2 td-underline\" data-v-b826d95d=\"\">Attract tech talent</a>",
+          "target": [
+            ".s-link.td-underline.fs-body2:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #267bd2, background color: #edf5fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1b75d0",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 4.41,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<footer class=\"bg-black-150 bb bc-black-150 d:bg-black-100 md:pb64\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".md\\:pb64"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"p-btn--secondary fs-subheading bar-md p-ff-source-bold mt-auto\" data-v-b826d95d=\"\">",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(1) > .bar-md.p-btn--secondary.p-ff-source-bold"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1b75d0",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 4.41,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<footer class=\"bg-black-150 bb bc-black-150 d:bg-black-100 md:pb64\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".md\\:pb64"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"p-btn--secondary fs-subheading bar-md p-ff-source-bold mt-auto\" data-v-b826d95d=\"\"> Visit Meta </div>",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(2) > .bar-md.p-btn--secondary.p-ff-source-bold"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1b75d0",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 4.41,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<footer class=\"bg-black-150 bb bc-black-150 d:bg-black-100 md:pb64\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".md\\:pb64"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"p-btn--secondary fs-subheading bar-md p-ff-source-bold mt-auto\" data-v-b826d95d=\"\">",
+          "target": [
+            "a[href$=\"stackoverflow.help/\"] > .bar-md.p-btn--secondary.p-ff-source-bold"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1b75d0",
+                "bgColor": "#f9f9f4",
+                "contrastRatio": 4.41,
+                "fontSize": "14.3pt (19px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<footer class=\"bg-black-150 bb bc-black-150 d:bg-black-100 md:pb64\" data-v-b826d95d=\"\">",
+                  "target": [
+                    ".md\\:pb64"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"p-btn--secondary fs-subheading bar-md p-ff-source-bold mt-auto\" data-v-b826d95d=\"\">",
+          "target": [
+            ".md\\:ai-center.py96.md\\:pb16:nth-child(4) > .bar-md.p-btn--secondary.p-ff-source-bold"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #1b75d0, background color: #f9f9f4, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

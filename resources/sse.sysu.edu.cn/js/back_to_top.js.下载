@@ -1,0 +1,31 @@
+(function ($) {
+    Drupal.behaviors.backtotop = {
+        attach: function (context, settings) {
+            var exist = $('#backtotop').length;
+            if (exist == 0) {
+                $("body", context).once('backtotop').each(function () {
+                    $('body').append("<div id='backtotop'></div>");
+                });
+            }
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#backtotop').fadeIn();
+                } else {
+                    $('#backtotop').fadeOut();
+                }
+            });
+
+            $('#backtotop', context).once('backtotop').each(function () {
+                $(this).click(function () {
+                    $("html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function () {
+                        $('html, body').stop();
+                    });
+                    $('html,body').animate({scrollTop: 0}, 500, function () {
+                        $("html, body").unbind("scroll mousedown DOMMouseScroll mousewheel keyup");
+                    });
+                    return false;
+                });
+            });
+        }
+    };
+})(jQuery);

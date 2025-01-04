@@ -1,0 +1,2271 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:42.299Z",
+  "url": "http://172.28.48.1:8080/resources/baidu.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "meta-viewport",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": []
+    },
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"s_is_result_css\" style=\"display:none;\">",
+          "target": [
+            "#s_is_result_css"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"s_index_off_css\" style=\"display:none;\">",
+          "target": [
+            "#s_index_off_css"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://news.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">新闻</a>",
+          "target": [
+            "a[href$=\"news.baidu.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.hao123.com/?src=from_pc_logon\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">hao123</a>",
+          "target": [
+            ".mnav.c-color-t.c-font-normal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://map.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">地图</a>",
+          "target": [
+            "a[href$=\"map.baidu.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://tieba.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">贴吧</a>",
+          "target": [
+            "a[href$=\"tieba.baidu.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://haokan.baidu.com/?sfrom=baidu-top\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">视频</a>",
+          "target": [
+            ".mnav.c-color-t.c-font-normal:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://image.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">图片</a>",
+          "target": [
+            "a[href$=\"image.baidu.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://pan.baidu.com/?from=1026962h\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">网盘</a>",
+          "target": [
+            ".mnav.c-color-t.c-font-normal:nth-child(8)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://wenku.baidu.com/?fr=bdpcindex\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">文库</a>",
+          "target": [
+            ".mnav.c-color-t.c-font-normal:nth-child(9)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://chat.baidu.com/search?isShowHello=1&amp;pd=csaitab&amp;setype=csaitab&amp;extParamsJson=%7B%22enter_type%22%3A%22home_tab%22%7D\" target=\"_blank\" id=\"csaitab\" class=\"mnav c-font-normal c-color-t\">",
+          "target": [
+            "#csaitab"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"http://www.baidu.com/more/\" name=\"tj_briicon\" class=\"s-bri c-font-normal c-color-t\" target=\"_blank\">更多</a>",
+          "target": [
+            ".s-bri"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"show-city-name c-font-normal c-color-t\" data-key=\"6301\">肇庆</span>",
+          "target": [
+            ".show-city-name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"show-icon-temp c-font-normal c-color-t\">16℃</span>",
+          "target": [
+            ".show-icon-temp"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"s-top-right-text c-font-normal c-color-t s-top-right-new\" id=\"s-usersetting-top\" name=\"tj_settingicon\">设置</span>",
+          "target": [
+            "#s-usersetting-top"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"user-name c-font-normal c-color-t\">136*****871</span>",
+          "target": [
+            ".user-name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" class=\"s_ipt\" name=\"wd\" id=\"kw\" maxlength=\"100\" autocomplete=\"off\">",
+          "target": [
+            "#kw"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"s-menu-item current\" data-id=\"2\">\n                        推荐\n                        <span class=\"s-menu-item-underline\"></span></span>",
+          "target": [
+            ".current"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#626675",
+                "bgColor": "#ffffff",
+                "contrastRatio": 5.71,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.71"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"hot-refresh-text\">换一换</span>",
+          "target": [
+            ".hot-refresh-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">让澳门绽放更加迷人的色彩</span>",
+          "target": [
+            ".news-meta-item:nth-child(1) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">人贩子余华英重审二审被判死刑</span>",
+          "target": [
+            ".news-meta-item:nth-child(2) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">男子彩票中奖834万称暂不告诉孩子</span>",
+          "target": [
+            ".news-meta-item:nth-child(3) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">“打开”活力满满的澳门</span>",
+          "target": [
+            ".news-meta-item:nth-child(4) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">哈尔滨文旅回复刘亦菲</span>",
+          "target": [
+            ".news-meta-item:nth-child(5) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">余华英庭审很嚣张 宣判后才落泪</span>",
+          "target": [
+            ".news-meta-item:nth-child(6) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">多地官宣将“取消公摊”</span>",
+          "target": [
+            ".news-meta-item:nth-child(7) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">35岁未婚女子分享回村经历</span>",
+          "target": [
+            ".news-meta-item:nth-child(8) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">大学生恋爱四个月花费近60万</span>",
+          "target": [
+            ".news-meta-item:nth-child(9) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#222222",
+                "bgColor": "#ffffff",
+                "contrastRatio": 15.9,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 15.9"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"title-content-title\">全国日均收购秋粮超200万吨</span>",
+          "target": [
+            ".news-meta-item:nth-child(10) > .title-content.c-link.c-font-medium > .title-content-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"news_hot_data\" style=\"display:none;\">{\"banner\":[]}</textarea>",
+          "target": [
+            "#news_hot_data"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"news_banner_data\" style=\"display:none;\">{\"isViewed\": \"0\",\"url\": \"\",\"img\": \"\",\"title\": \"\",\"bannerId\": \"\"}</textarea>",
+          "target": [
+            "#news_banner_data"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"s_menus_textarea\" style=\"display:none;\">",
+          "target": [
+            "#s_menus_textarea"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<textarea id=\"s_sync_data\" style=\"display:none;\"></textarea>",
+          "target": [
+            "#s_sync_data"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#82c91e",
+                "contrastRatio": 2.03,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"show-airParm polution-level-10\"><span class=\"show-polution-name\">良</span></span>",
+                  "target": [
+                    ".show-airParm"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"show-polution-name\">良</span>",
+          "target": [
+            ".show-polution-name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon hotsearch-title\"></i>",
+          "target": [
+            ".hotsearch-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon arrow\"></i>",
+          "target": [
+            ".arrow"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon refresh-icon\"></i>",
+          "target": [
+            ".refresh-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon title-content-top-icon c-color-red c-gap-right-small\"></i>",
+          "target": [
+            ".title-content-top-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fe2d46",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.69,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot1\">1</span>",
+          "target": [
+            ".c-index-single-hot1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ff6600",
+                "contrastRatio": 2.93,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"title-content-mark c-text c-text-hot\">热</span>",
+                  "target": [
+                    ".news-meta-item:nth-child(2) > .title-content.c-link.c-font-medium > .c-text-hot.title-content-mark.c-text"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-mark c-text c-text-hot\">热</span>",
+          "target": [
+            ".news-meta-item:nth-child(2) > .title-content.c-link.c-font-medium > .c-text-hot.title-content-mark.c-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ff6600",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.93,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot2\">2</span>",
+          "target": [
+            ".c-index-single-hot2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#faa90e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.95,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot3\">3</span>",
+          "target": [
+            ".c-index-single-hot3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot4\">4</span>",
+          "target": [
+            ".c-index-single-hot4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot5\">5</span>",
+          "target": [
+            ".c-index-single-hot5"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot6\">6</span>",
+          "target": [
+            ".c-index-single-hot6"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ff6600",
+                "contrastRatio": 2.93,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"title-content-mark c-text c-text-hot\">热</span>",
+                  "target": [
+                    ".news-meta-item:nth-child(7) > .title-content.c-link.c-font-medium > .c-text-hot.title-content-mark.c-text"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-mark c-text c-text-hot\">热</span>",
+          "target": [
+            ".news-meta-item:nth-child(7) > .title-content.c-link.c-font-medium > .c-text-hot.title-content-mark.c-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot7\">7</span>",
+          "target": [
+            ".c-index-single-hot7"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot8\">8</span>",
+          "target": [
+            ".c-index-single-hot8"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"title-content-index c-index-single c-index-single-hot9\">9</span>",
+          "target": [
+            ".c-index-single-hot9"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9141200245707295744\" data-nid=\"news_9141200245707295744\" data-log=\"stype:0;picNum:2;title:央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;财经&quot;,&quot;new_sub_cate&quot;:&quot;金融市场&quot;,&quot;mthid&quot;:&quot;1565092142508658&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:5.724444:5.724444:0.021606:0.011507:5827.000000:501.000000:0.085964:79.782000:197.849556:8.000000:1.790307:0.747750:0.441351:0.774496:0.605974:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAED\\/H5Y\\/IAQxAAAAwNJVWT85AAAAALgArj+hAQAAAAAAAPA\\/qAECvQH6\\/7A8vQHABXA9vQHXiZA8vQHttDI8vQFEuZE7vQEZkgU+vQGVrE87vQEF\\/00+vQG2pVA9vQG5kns+vQH\\/ZY87vQEcVKs5vQH1Mg89vQF19HoyvQHB1uo+vQFZcQk9vQH8fg88vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAAAzMjI\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0015463407617062,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.012378046350743,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:197.84955598119,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734572763,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.012378046350743,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:0,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9141200245707295744\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"s-news-item-title c-link c-font-big c-gap-bottom-small title-clamp-3  has-tts\" href=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" title=\"央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯\" data-title=\"央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯\" data-link=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" data-click=\"LOG_LINK\" target=\"_blank\" data-type=\"news\" data-subject=\"\" data-nid=\"news_9141200245707295744\">",
+          "target": [
+            "div[data-rid=\"9141200245707295744\"] > .s-block-container.c-span8.c-span-last > .s-text-content > .title-clamp-3.s-news-item-title.c-gap-bottom-small"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9141200245707295744\" data-nid=\"news_9141200245707295744\" data-log=\"stype:0;picNum:2;title:央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;财经&quot;,&quot;new_sub_cate&quot;:&quot;金融市场&quot;,&quot;mthid&quot;:&quot;1565092142508658&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:5.724444:5.724444:0.021606:0.011507:5827.000000:501.000000:0.085964:79.782000:197.849556:8.000000:1.790307:0.747750:0.441351:0.774496:0.605974:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAED\\/H5Y\\/IAQxAAAAwNJVWT85AAAAALgArj+hAQAAAAAAAPA\\/qAECvQH6\\/7A8vQHABXA9vQHXiZA8vQHttDI8vQFEuZE7vQEZkgU+vQGVrE87vQEF\\/00+vQG2pVA9vQG5kns+vQH\\/ZY87vQEcVKs5vQH1Mg89vQF19HoyvQHB1uo+vQFZcQk9vQH8fg88vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAAAzMjI\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0015463407617062,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.012378046350743,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:197.84955598119,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734572763,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.012378046350743,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:0,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9141200245707295744\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"c-gap-right c-color-gray\" href=\"https://author.baidu.com/home?app_id=1565092142508658&amp;from=homepage_nickname\" target=\"_blank\" data-src=\"1\" data-click=\"LOG_LINK\">每日经济新闻</a>",
+          "target": [
+            "div[data-rid=\"9141200245707295744\"] > .s-block-container.c-span8.c-span-last > .from-tpl2.from.c-font-normal > .c-color-gray.c-gap-right[data-src=\"1\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9141200245707295744\" data-nid=\"news_9141200245707295744\" data-log=\"stype:0;picNum:2;title:央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;财经&quot;,&quot;new_sub_cate&quot;:&quot;金融市场&quot;,&quot;mthid&quot;:&quot;1565092142508658&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:5.724444:5.724444:0.021606:0.011507:5827.000000:501.000000:0.085964:79.782000:197.849556:8.000000:1.790307:0.747750:0.441351:0.774496:0.605974:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAED\\/H5Y\\/IAQxAAAAwNJVWT85AAAAALgArj+hAQAAAAAAAPA\\/qAECvQH6\\/7A8vQHABXA9vQHXiZA8vQHttDI8vQFEuZE7vQEZkgU+vQGVrE87vQEF\\/00+vQG2pVA9vQG5kns+vQH\\/ZY87vQEcVKs5vQH1Mg89vQF19HoyvQHB1uo+vQFZcQk9vQH8fg88vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAAAzMjI\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0015463407617062,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.012378046350743,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:197.84955598119,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734572763,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.012378046350743,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:0,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9141200245707295744\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"src-time c-color-gray2 c-gap-right\">12-19 09:46</span>",
+          "target": [
+            "div[data-rid=\"9141200245707295744\"] > .s-block-container.c-span8.c-span-last > .from-tpl2.from.c-font-normal > .src-time.c-gap-right.c-color-gray2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon\"></i>",
+          "target": [
+            ".play-tts[data-nid=\"news_9141200245707295744\"] > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9141200245707295744%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9141200245707295744\" data-nid=\"news_9141200245707295744\" data-log=\"stype:0;picNum:2;title:央行约谈部分金融机构要求加强债券投资稳健性，有理财子紧急开会：降低长期国债持仓风险敞口、暂停长期国债价差交易策略⋯⋯;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;财经&quot;,&quot;new_sub_cate&quot;:&quot;金融市场&quot;,&quot;mthid&quot;:&quot;1565092142508658&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:5.724444:5.724444:0.021606:0.011507:5827.000000:501.000000:0.085964:79.782000:197.849556:8.000000:1.790307:0.747750:0.441351:0.774496:0.605974:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAED\\/H5Y\\/IAQxAAAAwNJVWT85AAAAALgArj+hAQAAAAAAAPA\\/qAECvQH6\\/7A8vQHABXA9vQHXiZA8vQHttDI8vQFEuZE7vQEZkgU+vQGVrE87vQEF\\/00+vQG2pVA9vQG5kns+vQH\\/ZY87vQEcVKs5vQH1Mg89vQF19HoyvQHB1uo+vQFZcQk9vQH8fg88vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAAAzMjI\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0015463407617062,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.012378046350743,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:197.84955598119,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734572763,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.012378046350743,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:0,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9141200245707295744\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"tts-button-text\">播报</p>",
+          "target": [
+            ".play-tts[data-nid=\"news_9141200245707295744\"] > .tts-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9719679190537731552\" data-nid=\"news_9719679190537731552\" data-log=\"stype:;picNum:;title:皇家马德里夺得2024国际足联洲际杯冠军;pos:0;st:news;\" data-extra=\"{&quot;mthid&quot;:&quot;1563462235469851&quot;,&quot;mark&quot;:0,&quot;rec_src&quot;:[4404],&quot;position&quot;:1,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;score&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9719679190537731552\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"s-news-item-title c-link c-font-big c-gap-bottom-small title-clamp-3  has-tts\" href=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" title=\"皇家马德里夺得2024国际足联洲际杯冠军\" data-title=\"皇家马德里夺得2024国际足联洲际杯冠军\" data-link=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" data-click=\"LOG_LINK\" target=\"_blank\" data-type=\"news\" data-subject=\"\" data-nid=\"news_9719679190537731552\">",
+          "target": [
+            ".title-clamp-3[title=\"皇家马德里夺得2024国际足联洲际杯冠军\"][data-title=\"皇家马德里夺得2024国际足联洲际杯冠军\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9719679190537731552\" data-nid=\"news_9719679190537731552\" data-log=\"stype:;picNum:;title:皇家马德里夺得2024国际足联洲际杯冠军;pos:0;st:news;\" data-extra=\"{&quot;mthid&quot;:&quot;1563462235469851&quot;,&quot;mark&quot;:0,&quot;rec_src&quot;:[4404],&quot;position&quot;:1,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;score&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9719679190537731552\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"c-gap-right c-color-gray\" href=\"https://author.baidu.com/home?app_id=1563462235469851&amp;from=homepage_nickname\" target=\"_blank\" data-src=\"1\" data-click=\"LOG_LINK\">光明网</a>",
+          "target": [
+            "div[data-rid=\"9719679190537731552\"] > .s-block-container.c-span8.c-span-last > .from-tpl2.from.c-font-normal > .c-color-gray.c-gap-right[data-src=\"1\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9719679190537731552\" data-nid=\"news_9719679190537731552\" data-log=\"stype:;picNum:;title:皇家马德里夺得2024国际足联洲际杯冠军;pos:0;st:news;\" data-extra=\"{&quot;mthid&quot;:&quot;1563462235469851&quot;,&quot;mark&quot;:0,&quot;rec_src&quot;:[4404],&quot;position&quot;:1,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;score&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9719679190537731552\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"src-time c-color-gray2 c-gap-right\">12-19 08:22</span>",
+          "target": [
+            "div[data-rid=\"9719679190537731552\"] > .s-block-container.c-span8.c-span-last > .from-tpl2.from.c-font-normal > .src-time.c-gap-right.c-color-gray2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon\"></i>",
+          "target": [
+            ".play-tts[data-nid=\"news_9719679190537731552\"] > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9719679190537731552%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9719679190537731552\" data-nid=\"news_9719679190537731552\" data-log=\"stype:;picNum:;title:皇家马德里夺得2024国际足联洲际杯冠军;pos:0;st:news;\" data-extra=\"{&quot;mthid&quot;:&quot;1563462235469851&quot;,&quot;mark&quot;:0,&quot;rec_src&quot;:[4404],&quot;position&quot;:1,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;score&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;image1&quot;}\">",
+                  "target": [
+                    "div[data-rid=\"9719679190537731552\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"tts-button-text\">播报</p>",
+          "target": [
+            ".play-tts[data-nid=\"news_9719679190537731552\"] > .tts-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-3 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9755913084989200290\" data-nid=\"news_9755913084989200290\" data-log=\"stype:0;picNum:0;title:电光科技：公司目前算力达到千卡集群;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;科技&quot;,&quot;new_sub_cate&quot;:&quot;互联网&quot;,&quot;mthid&quot;:&quot;1572595784300706&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:6.471111:6.471111:0.019656:0.003260:1242.000000:83.000000:0.066774:69.516000:196.129201:5.000000:0.000000:0.000000:0.241484:0.748349:0.706491:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAMCoIJQ\\/IAQxAAAAgDY0VT85AAAA4AxOpT+hAQAAAAAAAPA\\/qAECvQFGBaE8vQFncCo9vQHpL4I8vQF3vcw7vQH3Ez46vQEER5Q+vQHU\\/wE7vQHXJ+M+vQHFYUo9vQGRqoI+vQF41wM8vQEfFZ85vQFMe6I9vQH6YA4yvQGzrbM+vQH+KCs9vQGUnpA7vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAMAM1B8\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0012941868044436,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.009054645570844,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:196.12920076615,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734570068,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.009054645570844,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:2,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;titleonly&quot;}\">",
+                  "target": [
+                    ".s-news-special-item-tpl-3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"s-news-item-title c-link c-font-big c-gap-bottom-small title-clamp-2 s-news-item-title-tpl3 has-tts\" href=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" title=\"电光科技：公司目前算力达到千卡集群\" data-title=\"电光科技：公司目前算力达到千卡集群\" data-link=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" data-click=\"LOG_LINK\" target=\"_blank\" data-type=\"news\" data-subject=\"\" data-nid=\"news_9755913084989200290\">",
+          "target": [
+            ".title-clamp-2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-3 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9755913084989200290\" data-nid=\"news_9755913084989200290\" data-log=\"stype:0;picNum:0;title:电光科技：公司目前算力达到千卡集群;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;科技&quot;,&quot;new_sub_cate&quot;:&quot;互联网&quot;,&quot;mthid&quot;:&quot;1572595784300706&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:6.471111:6.471111:0.019656:0.003260:1242.000000:83.000000:0.066774:69.516000:196.129201:5.000000:0.000000:0.000000:0.241484:0.748349:0.706491:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAMCoIJQ\\/IAQxAAAAgDY0VT85AAAA4AxOpT+hAQAAAAAAAPA\\/qAECvQFGBaE8vQFncCo9vQHpL4I8vQF3vcw7vQH3Ez46vQEER5Q+vQHU\\/wE7vQHXJ+M+vQHFYUo9vQGRqoI+vQF41wM8vQEfFZ85vQFMe6I9vQH6YA4yvQGzrbM+vQH+KCs9vQGUnpA7vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAMAM1B8\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0012941868044436,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.009054645570844,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:196.12920076615,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734570068,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.009054645570844,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:2,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;titleonly&quot;}\">",
+                  "target": [
+                    ".s-news-special-item-tpl-3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"c-gap-right c-color-gray\" href=\"https://author.baidu.com/home?app_id=1572595784300706&amp;from=homepage_nickname\" target=\"_blank\" data-src=\"1\" data-click=\"LOG_LINK\">第一财经</a>",
+          "target": [
+            ".s-news-special-item-tpl-3 > .from.c-font-normal > .c-color-gray.c-gap-right[data-src=\"1\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-3 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9755913084989200290\" data-nid=\"news_9755913084989200290\" data-log=\"stype:0;picNum:0;title:电光科技：公司目前算力达到千卡集群;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;科技&quot;,&quot;new_sub_cate&quot;:&quot;互联网&quot;,&quot;mthid&quot;:&quot;1572595784300706&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:6.471111:6.471111:0.019656:0.003260:1242.000000:83.000000:0.066774:69.516000:196.129201:5.000000:0.000000:0.000000:0.241484:0.748349:0.706491:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAMCoIJQ\\/IAQxAAAAgDY0VT85AAAA4AxOpT+hAQAAAAAAAPA\\/qAECvQFGBaE8vQFncCo9vQHpL4I8vQF3vcw7vQH3Ez46vQEER5Q+vQHU\\/wE7vQHXJ+M+vQHFYUo9vQGRqoI+vQF41wM8vQEfFZ85vQFMe6I9vQH6YA4yvQGzrbM+vQH+KCs9vQGUnpA7vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAMAM1B8\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0012941868044436,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.009054645570844,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:196.12920076615,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734570068,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.009054645570844,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:2,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;titleonly&quot;}\">",
+                  "target": [
+                    ".s-news-special-item-tpl-3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"src-time c-color-gray2 c-gap-right\">12-19 09:02</span>",
+          "target": [
+            ".s-news-special-item-tpl-3 > .from.c-font-normal > .src-time.c-gap-right.c-color-gray2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i class=\"c-icon\"></i>",
+          "target": [
+            ".play-tts[data-nid=\"news_9755913084989200290\"] > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"s-news-special s-news-item s-news-special-item-tpl-3 s-opacity-blank8 clearfix has-tts\" data-url=\"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9755913084989200290%22%7D&amp;n_type=-1&amp;p_from=-1\" data-rid=\"9755913084989200290\" data-nid=\"news_9755913084989200290\" data-log=\"stype:0;picNum:0;title:电光科技：公司目前算力达到千卡集群;pos:0;st:news;\" data-extra=\"{&quot;new_cate&quot;:&quot;科技&quot;,&quot;new_sub_cate&quot;:&quot;互联网&quot;,&quot;mthid&quot;:&quot;1572595784300706&quot;,&quot;srccat&quot;:0,&quot;srcid&quot;:80001,&quot;recall_type&quot;:0,&quot;score&quot;:0,&quot;predictor_result&quot;:&quot;CAEZAAAAAAAAAAA=&quot;,&quot;topic_title&quot;:&quot;7.000000:0.000000:6.471111:6.471111:0.019656:0.003260:1242.000000:83.000000:0.066774:69.516000:196.129201:5.000000:0.000000:0.000000:0.241484:0.748349:0.706491:0.000000:0.000000:0.000000:1.000000:&quot;,&quot;predictor_extmsg&quot;:&quot;EpYBGQAAAMCoIJQ\\/IAQxAAAAgDY0VT85AAAA4AxOpT+hAQAAAAAAAPA\\/qAECvQFGBaE8vQFncCo9vQHpL4I8vQF3vcw7vQH3Ez46vQEER5Q+vQHU\\/wE7vQHXJ+M+vQHFYUo9vQGRqoI+vQF41wM8vQEfFZ85vQFMe6I9vQH6YA4yvQGzrbM+vQH+KCs9vQGUnpA7vQEAAIA\\/IjEZAAAAAAAAAAAgRTEAAAAAAAAAAGABaQAAAMAM1B8\\/cQAAAAAAAAAAeQAAAAAAAAAA&quot;,&quot;tj_timeliness&quot;:1,&quot;vertical_type&quot;:0,&quot;dnn_score_cp&quot;:0.0012941868044436,&quot;recall_attention&quot;:[&quot;&quot;],&quot;ac&quot;:0,&quot;tag&quot;:0,&quot;user_profile&quot;:0,&quot;gbdt_score&quot;:0.009054645570844,&quot;rela_score&quot;:0,&quot;important_news&quot;:0,&quot;offline_rank_score&quot;:196.12920076615,&quot;user_hotnews_level&quot;:2,&quot;manual_edit&quot;:0,&quot;r_att_src&quot;:1000,&quot;mark&quot;:0,&quot;public_time&quot;:1734570068,&quot;rec_src&quot;:[4400],&quot;high_level_flag&quot;:0,&quot;intervene_level&quot;:0,&quot;special_log_flag&quot;:0,&quot;event_hot&quot;:0,&quot;sdnn_score&quot;:0.009054645570844,&quot;user_active&quot;:-1,&quot;grc_key&quot;:&quot;ForkNewsXinreIONode-news_newhot&quot;,&quot;is_intervene&quot;:0,&quot;first_screen_factor&quot;:1,&quot;recall_types&quot;:[0],&quot;position&quot;:2,&quot;channel_id&quot;:1,&quot;grc_q_ratio&quot;:0,&quot;q_ratio&quot;:1,&quot;vt_ctr_fea&quot;:&quot;&quot;,&quot;dispatch_timestamp&quot;:&quot;0&quot;,&quot;layout&quot;:&quot;titleonly&quot;}\">",
+                  "target": [
+                    ".s-news-special-item-tpl-3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"tts-button-text\">播报</p>",
+          "target": [
+            ".play-tts[data-nid=\"news_9755913084989200290\"] > .tts-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"animate-arrow c-icon\"></div>",
+          "target": [
+            ".animate-arrow"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"c-icon\"></span>",
+          "target": [
+            ".accessibility-icon:nth-child(16) > .c-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"c-icon c-color-gray2\"></span>",
+          "target": [
+            ".open-content-info:nth-child(17) > .c-color-gray2.c-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"c-icon\"></span>",
+          "target": [
+            ".accessibility-icon:nth-child(18) > .c-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"c-icon c-color-gray2\"></span>",
+          "target": [
+            ".open-content-info:nth-child(19) > .c-color-gray2.c-icon"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#4e6ef2",
+                "contrastRatio": 4.34,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"submit\" value=\"百度一下\" id=\"su\" class=\"btn self-btn bg s_btn\">",
+                  "target": [
+                    "#su"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input type=\"submit\" value=\"百度一下\" id=\"su\" class=\"btn self-btn bg s_btn\">",
+          "target": [
+            "#su"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9195a3",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.98,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"s_main\" class=\"main clearfix c-wrapper c-wrapper-l \" style=\"\">",
+                  "target": [
+                    "#s_main"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.98 (foreground color: #9195a3, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span id=\"s_menu_mine\" class=\"s-menu-item s-menu-mine\" data-id=\"100\">\n                        我的关注\n                        <span class=\"s-menu-item-underline\"></span></span>",
+          "target": [
+            "#s_menu_mine"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.98 (foreground color: #9195a3, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"https://home.baidu.com/\" target=\"_blank\">关于百度</a>",
+          "target": [
+            "a[href$=\"home.baidu.com/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"http://ir.baidu.com/\" target=\"_blank\">About Baidu</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(2) > .text-color[href$=\"ir.baidu.com/\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"https://www.baidu.com/duty\" target=\"_blank\">使用百度前必读</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(3) > .text-color[href$=\"duty\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"https://help.baidu.com/question?prod_id=1\" target=\"_blank\">帮助中心</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(4) > .text-color[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"https://e.baidu.com/?refer=1271\" target=\"_blank\">企业推广</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(5) > .text-color[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001\" target=\"_blank\">京公网安备11000002000001号</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(6) > .text-color[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#bbbbbb",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.91,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\" style=\"visibility: visible; width: 100%;\">",
+                  "target": [
+                    "#bottom_layer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-color\" href=\"https://beian.miit.gov.cn/\" target=\"_blank\">京ICP证030173号</a>",
+          "target": [
+            ".s-bottom-layer-content > .lh:nth-child(7) > .text-color[href$=\"beian.miit.gov.cn/\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

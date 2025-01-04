@@ -1,0 +1,25 @@
+#block-zishiyingcaidan div.sidebar-menu-2-3 {
+  display:none;
+  /*max-height: 340px;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  /*padding-right: 14px;*/
+  /*padding-left: 14px;*/
+  /*padding-bottom: 7px;*/
+  height:1px;
+  -webkit-transition:width 2s, height 2s, 
+        background-color 2s, -webkit-transform 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+/*#block-zishiyingcaidan div.sidebar-menu-2-3 js-sidebar open{*/
+/*  display:block;*/
+/*  padding-right: 14px;*/
+/*  padding-left: 14px;*/
+/*  padding-bottom: 7px;*/
+  /*  -webkit-transform:rotate(180deg);*/
+  /*transform:rotate(180deg);*/
+/*}*/

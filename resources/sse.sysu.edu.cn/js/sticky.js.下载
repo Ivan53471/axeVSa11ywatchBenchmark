@@ -1,0 +1,14 @@
+(function ($) {
+
+  Drupal.behaviors.davyinui.sticky = function(ele){
+    // var scrollTop = $(window).scrollTop() || $("body").scrollTop();
+    // Waypoint.defaults.offset = scrollTop - $(ele).height();
+    var waypoint = new Waypoint.Sticky({
+      stuckClass: 'stuck',
+      element: $(ele)[0]
+    });
+    // return waypoint;
+
+  };
+
+}(jQuery));

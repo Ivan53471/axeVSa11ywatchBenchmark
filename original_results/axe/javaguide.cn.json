@@ -1,0 +1,964 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.10.2"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2025-01-04T03:31:48.562Z",
+  "url": "http://172.28.48.1:8080/resources/javaguide.cn/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "tag",
+      "values": [
+        "wcag2aa"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [
+    {
+      "id": "valid-lang",
+      "impact": null,
+      "tags": [
+        "cat.language",
+        "wcag2aa",
+        "wcag312",
+        "TTv5",
+        "TT11.b",
+        "EN-301-549",
+        "EN-9.3.1.2",
+        "ACT"
+      ],
+      "description": "Ensure lang attributes have valid values",
+      "help": "lang attribute must have a valid value",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/valid-lang?application=axe-puppeteer",
+      "nodes": []
+    }
+  ],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link\" href=\"https://javaguide.cn/home.html\" aria-label=\"面试指南\"><!--[--><span class=\"font-icon icon iconfont icon-java\" style=\"\"></span><!--]-->面试指南<!----></a>",
+          "target": [
+            "a[aria-label=\"面试指南\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link\" href=\"https://javaguide.cn/open-source-project/\" aria-label=\"开源项目\"><!--[--><span class=\"font-icon icon iconfont icon-github\" style=\"\"></span><!--]-->开源项目<!----></a>",
+          "target": [
+            "a[aria-label=\"开源项目\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link\" href=\"https://javaguide.cn/books/\" aria-label=\"技术书籍\"><!--[--><span class=\"font-icon icon iconfont icon-book\" style=\"\"></span><!--]-->技术书籍<!----></a>",
+          "target": [
+            "a[href$=\"books/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link\" href=\"https://javaguide.cn/high-quality-technical-articles/\" aria-label=\"程序人生\"><!--[--><span class=\"font-icon icon iconfont icon-article\" style=\"\"></span><!--]-->程序人生<!----></a>",
+          "target": [
+            "a[aria-label=\"程序人生\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"vp-dropdown-title\" aria-label=\"知识星球\">",
+          "target": [
+            ".vp-dropdown-title[aria-label=\"知识星球\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd8",
+                "bgColor": "#202026",
+                "contrastRatio": 10.47,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.47"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"vp-dropdown-title\" aria-label=\"网站相关\">",
+          "target": [
+            "button[aria-label=\"网站相关\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9999a0",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 6.06,
+                "fontSize": "19.2pt (25.6px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.06"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p id=\"main-description\">「Java学习 + 面试指南」涵盖 Java 程序员需要掌握的核心知识</p>",
+          "target": [
+            "#main-description"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#2c89c6",
+                "contrastRatio": 5.5,
+                "fontSize": "14.4pt (19.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.5"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link vp-hero-action primary no-external-link-icon\" href=\"https://javaguide.cn/home.html\" aria-label=\"开始阅读\"><!---->开始阅读<!----></a>",
+          "target": [
+            ".primary"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#cfcfd9",
+                "bgColor": "#24262b",
+                "contrastRatio": 9.79,
+                "fontSize": "14.4pt (19.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.79"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link auto-link vp-hero-action default no-external-link-icon\" href=\"https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html\" aria-label=\"知识星球\"><!---->知识星球<!----></a>",
+          "target": [
+            ".default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "19.8pt (26.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>关于网站</span>",
+          "target": [
+            "#关于网站 > .header-anchor > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>JavaGuide 已经持续维护 6 年多了，累计提交了 <strong>5500+</strong> commit ，共有 <strong>520+</strong> 多位贡献者共同参与维护和完善。真心希望能够把这个项目做好，真正能够帮助到有需要的朋友！</p>",
+          "target": [
+            ".theme-hope-content > p:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong>5500+</strong>",
+          "target": [
+            "strong:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong>520+</strong>",
+          "target": [
+            "strong:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>",
+          "target": [
+            ".theme-hope-content > p:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://github.com/Snailclimb/JavaGuide\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>",
+          "target": [
+            "p:nth-child(3) > a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://gitee.com/SnailClimb/JavaGuide\" target=\"_blank\" rel=\"noopener noreferrer\">Gitee</a>",
+          "target": [
+            "a[rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/javaguide/intro.html\">项目介绍</a>",
+          "target": [
+            "ul:nth-child(4) > li:nth-child(1) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/javaguide/contribution-guideline.html\">贡献指南</a>",
+          "target": [
+            "ul:nth-child(4) > li:nth-child(2) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/javaguide/faq.html\">常见问题</a>",
+          "target": [
+            "ul:nth-child(4) > li:nth-child(3) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "19.8pt (26.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>关于作者</span>",
+          "target": [
+            "#关于作者 > .header-anchor > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/about-the-author/internet-addiction-teenager.html\">我曾经也是网瘾少年</a>",
+          "target": [
+            "ul:nth-child(6) > li:nth-child(1) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/about-the-author/my-college-life.html\">害，毕业三年了！</a>",
+          "target": [
+            "ul:nth-child(6) > li:nth-child(2) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html\">我的知识星球快 3 岁了！</a>",
+          "target": [
+            "ul:nth-child(6) > li:nth-child(3) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"route-link\" href=\"https://javaguide.cn/about-the-author/writing-technology-blog-six-years.html\">坚持写技术博客六年了</a>",
+          "target": [
+            "li:nth-child(4) > .route-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "19.8pt (26.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>公众号</span>",
+          "target": [
+            "#公众号 > .header-anchor > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>最新更新会第一时间同步在公众号，推荐关注！另外，公众号上有很多干货不会同步在线阅读网站。</p>",
+          "target": [
+            "p:nth-child(8)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ceced7",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 10.98,
+                "fontSize": "9.6pt (12.8px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 10.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<figcaption>JavaGuide 官方公众号</figcaption>",
+          "target": [
+            "figcaption"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9999a0",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 6.06,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.06"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"vp-footer\"><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">鄂ICP备2020015769号-1</a> | 主题: <a href=\"https://vuepress-theme-hope.github.io/v2/\" target=\"_blank\">VuePress Theme Hope</a></div>",
+          "target": [
+            ".vp-footer"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">鄂ICP备2020015769号-1</a>",
+          "target": [
+            "a[href$=\"beian.miit.gov.cn/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#439bd5",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 5.63,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.63"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://vuepress-theme-hope.github.io/v2/\" target=\"_blank\">VuePress Theme Hope</a>",
+          "target": [
+            ".vp-footer > a[target=\"_blank\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#9999a0",
+                "bgColor": "#1b1b1f",
+                "contrastRatio": 6.06,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.06"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"vp-copyright\">Copyright © 2024 Guide </div>",
+          "target": [
+            ".vp-copyright"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "impact": null,
+      "tags": [
+        "cat.sensory-and-visual-cues",
+        "wcag2aa",
+        "wcag144",
+        "EN-301-549",
+        "EN-9.1.4.4",
+        "ACT"
+      ],
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "help": "Zooming and scaling must not be disabled",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "meta-viewport",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "<meta> tag does not disable zooming on mobile devices"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+          "target": [
+            "meta[name=\"viewport\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axe-puppeteer",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.8pt (14.4px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\">",
+                  "target": [
+                    "input"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input type=\"search\" placeholder=\"搜索\" autocomplete=\"off\" spellcheck=\"false\" value=\"\">",
+          "target": [
+            "input"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "30.0pt (40px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<h1 id=\"main-title\" class=\"vp-hero-title\">JavaGuide</h1>",
+                  "target": [
+                    "#main-title"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h1 id=\"main-title\" class=\"vp-hero-title\">JavaGuide</h1>",
+          "target": [
+            "#main-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        }
+      ]
+    }
+  ],
+  "violations": []
+}

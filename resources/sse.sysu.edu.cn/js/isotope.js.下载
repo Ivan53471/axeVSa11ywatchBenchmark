@@ -1,0 +1,23 @@
+/*
+ * images libraries, base on masonry
+ */
+
+(function($){
+  Drupal.behaviors.davyinui.isotope = function(ele){
+    var $sizer = $('<div class="gutter-sizer"></div><div class="item-sizer"></div>')
+    $(ele).append($sizer);
+    var $grid = $(ele).isotope({
+      // options
+      percentPosition: true,
+      itemSelector: '.item',
+      columnWidth: '.item-sizer',
+      masonry: {
+        gutter: '.gutter-sizer'
+      }
+    });
+    // layout Isotope after each image loads (fix ajax load image)
+    $grid.imagesLoaded().progress(function() {
+      $grid.isotope('layout');
+    });
+  }
+}(jQuery));

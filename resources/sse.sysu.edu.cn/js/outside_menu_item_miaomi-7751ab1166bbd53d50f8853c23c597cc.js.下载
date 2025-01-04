@@ -1,0 +1,10 @@
+d = document.querySelectorAll("li.menu-item.expanded")
+// d[3].className = "menu-item expended";
+d.forEach(function(x){x.onclick = function(){
+  x.querySelector('i').click();
+  // x.className = "menu-item open";
+  // var submenu = x.querySelector("ul");
+  // submenu.className="menu level-menu activ-submenu collapse in";
+  // submenu.ariaExpanded="true";
+  }
+})

@@ -1,0 +1,7 @@
+.tns-outer {
+  overflow: hidden !important;
+}
+
+div.tns-outer .img a {
+  padding: 0;
+}

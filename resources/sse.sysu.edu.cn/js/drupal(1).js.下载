@@ -1,0 +1,165 @@
+(function($) {
+
+  Drupal.behaviors.swiperSettings = {
+    vertical: {
+      mode: 'vertical',
+    },
+    unLoop: {
+      loop: false,
+    },
+  }
+
+  $(document).ready(function() {
+
+    // switch language
+    var $languageSwitch = $('.js-language-switch');
+    var currentLanguage = $('.links a.is-active', $languageSwitch).text();
+    $('.current-language', $languageSwitch).text(currentLanguage);
+
+    // init main menu
+    var $mainMenu = $('.js-main-menu');
+    $('.expanded', $mainMenu).each(function() {
+      $(this).addClass('dropdown').find('.level-menu').addClass('dropdown-menu');
+    });
+
+    // init dropdown-menu
+    $('.expanded', $mainMenu).hover(
+      function() {
+        $('>.dropdown-menu', this).stop(true, true).show();
+        $(this).toggleClass('open');
+      },
+      function() {
+        $('>.dropdown-menu', this).stop(true, true).hide();
+        $(this).toggleClass('open');
+      }
+    );
+
+
+    // footer links
+    $('#footer').on('click', '.footer-link h4', function() {
+      $(this).parent().toggleClass('on');
+    })
+
+  });
+
+
+  function initSidebar(e) {
+    var $sidebar = $(e);
+
+    // 默认隐藏二级菜单
+    $sidebar.find('.level-menu').addClass('collapse');
+    // 二级菜单active默认展开
+    $sidebar.find('.active-submenu li').each(function() {
+      if ($(this).hasClass('active')) {
+        $(this).parent().addClass('in').parent().addClass('open');
+      }
+    });
+
+    // 点击显示二级菜单
+    $sidebar.find('.menu-toggle i').click(function() {
+      $(this).parent().parent().toggleClass('open');
+      $(this).parent().next().collapse('toggle');
+    });
+
+    // 点击显示三级以下的菜单
+    $sidebar.children('.menu').children('.menu-item').find('.menu-item.expanded > a').click(function() {
+      jQuery(this).next().collapse('toggle');
+      return false;
+    });
+  }
+
+  initSidebar('.js-sidebar');
+
+
+  Drupal.behaviors.hamburger = {
+    attach: function(context) {
+      $('.hamburger', context).once('hamburger').click(function() {
+        $(this).toggleClass('is-active');
+      })
+    }
+  };
+
+  // 隐藏展开code代码
+  Drupal.behaviors.expandCode = {
+    attach: function(context) {
+      $('.expand-code').each(function(index) {
+        var idCollapse = 'collapseCode-' + index;
+        var misc = $(this).find('span');
+        $(this).attr('href', '#' + idCollapse).next().attr('id', idCollapse);
+        $('#' + idCollapse).on('shown.bs.collapse', function() {
+          misc.text('收起');
+        });
+        $('#' + idCollapse).on('hidden.bs.collapse', function() {
+          misc.text('展开');
+        });
+      })
+    }
+  }
+
+  /* - Use drupal system ---------------- */
+  /* - info.yml ------------------------- */
+  /* - libraries themeName/plugins.code - */
+
+  Drupal.behaviors.davyinui = {
+    first: true,
+    attach: function(context) {
+      var self = this;
+      if (!this.first) return false;
+      // plugins/highlight.js
+      // this.highlight('pre ,code');
+
+      // waypoints
+      if ($('.header-sticky').length) {
+        self.sticky(".header-sticky");
+      }
+
+      // isotope, masonry
+      if ($('.masonry').length) {
+        self.isotope('.masonry');
+      }
+
+      // prettyPrint
+      PR && PR.prettyPrint();
+
+      $('.hover').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(200);
+      }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(200);
+      });
+
+      this.first = false;
+    }
+  }
+
+  //滚动列表
+  var time1 = 1000; //滚动速度
+  var time2 = 4000; //停留时间
+  var doscroll = function() {
+    var $parent = $('.scrollable-list-1 .scrollable-list-box');
+    var $first = $parent.find('.scrollable-list-content:first');
+    var height = $first.height();
+    $first.animate({
+      marginTop: -height + 'px'
+    }, time1, function() {
+      $first.css('marginTop', 0).appendTo($parent);
+    });
+  };
+  setInterval(function() {
+    doscroll()
+  }, time2);
+
+  $('.list-toggle .list-top').click(function(){
+    $(this).toggleClass('list-top-fold-show');
+    $(this).siblings('.list-bottom').slideToggle();
+  });
+
+
+
+  /* - !Use frontEnd npm --------------- */
+  /* - @see assets/scripts/index.js ---- */
+  /* - Need npm install first ---------- */
+
+
+
+
+}(jQuery));

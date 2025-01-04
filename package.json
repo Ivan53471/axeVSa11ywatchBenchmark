@@ -1,0 +1,18 @@
+{
+  "name": "axe_vs_a11ywatch_benchmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "classify": "node src/count_toolcode.js"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "description": "软件测试期末作业的测试脚本",
+  "dependencies": {
+    "@axe-core/puppeteer": "^4.7.1",
+    "axe_vs_a11ywatch_benchmark": "file:",
+    "iconv-lite": "^0.6.3",
+    "winston": "^3.17.0"
+  }
+}
